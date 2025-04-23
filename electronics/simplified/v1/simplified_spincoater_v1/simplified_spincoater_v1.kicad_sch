@@ -1,0 +1,1430 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f")
+	(paper "A4")
+	(lib_symbols
+		(symbol "power:+12V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VBUS"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VBUS"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VBUS_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 177.8 99.06) (xy 190.5 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05d794f2-33b9-431e-9d32-9f085fe9ed9f")
+	)
+	(wire
+		(pts
+			(xy 71.12 88.9) (xy 106.68 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c720d8d-eec3-46ee-b7ba-cf0e348347b6")
+	)
+	(wire
+		(pts
+			(xy 71.12 91.44) (xy 106.68 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13deaeb4-71c7-4584-94fb-c8d08735a523")
+	)
+	(wire
+		(pts
+			(xy 71.12 83.82) (xy 106.68 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e65795a-dad4-4539-ac47-67967825c728")
+	)
+	(wire
+		(pts
+			(xy 71.12 68.58) (xy 147.32 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25586319-2907-4249-9dbc-0cfd4ed144bf")
+	)
+	(wire
+		(pts
+			(xy 71.12 99.06) (xy 106.68 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a90840f-26f9-493e-be32-d775c72c88d2")
+	)
+	(wire
+		(pts
+			(xy 71.12 71.12) (xy 147.32 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aeeecfc-f2bc-4721-a117-7fcb60d99f11")
+	)
+	(wire
+		(pts
+			(xy 203.2 68.58) (xy 203.2 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e406ef3-4777-4859-9b5c-13c28794c3af")
+	)
+	(wire
+		(pts
+			(xy 187.96 68.58) (xy 187.96 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59bd9bbe-9f3e-40c6-8453-bd1c7731a07e")
+	)
+	(wire
+		(pts
+			(xy 137.16 78.74) (xy 147.32 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67ec5e17-34e5-4698-a8b4-b91ddb02b24c")
+	)
+	(wire
+		(pts
+			(xy 137.16 99.06) (xy 147.32 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d7b94c2-dc3b-4a1e-9fb2-f4eece9714da")
+	)
+	(wire
+		(pts
+			(xy 137.16 101.6) (xy 147.32 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ed99cfa-c8e7-4163-9d3b-83554c52414f")
+	)
+	(wire
+		(pts
+			(xy 220.98 99.06) (xy 231.14 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a518d5f7-1268-4073-9a08-bf14b9a09d0a")
+	)
+	(wire
+		(pts
+			(xy 180.34 76.2) (xy 203.2 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab45ad7a-71d4-4875-aea2-6f176352f847")
+	)
+	(wire
+		(pts
+			(xy 195.58 68.58) (xy 195.58 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afa73a9a-edcc-48fd-936b-7fac94f9069b")
+	)
+	(wire
+		(pts
+			(xy 180.34 73.66) (xy 195.58 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0583cb0-09af-4995-8de3-de6cbbdd01c6")
+	)
+	(wire
+		(pts
+			(xy 137.16 91.44) (xy 231.14 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbcc5c00-3844-4e6d-8471-f8b5dd9cca07")
+	)
+	(wire
+		(pts
+			(xy 220.98 101.6) (xy 231.14 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce3c77db-13a2-445e-abf4-9d9172d52ba0")
+	)
+	(wire
+		(pts
+			(xy 177.8 101.6) (xy 190.5 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6b12d77-f3c4-477b-ba92-b0aac05d9e81")
+	)
+	(wire
+		(pts
+			(xy 71.12 81.28) (xy 106.68 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4321a49-9f9e-4f03-bf1b-7418f0ccad91")
+	)
+	(wire
+		(pts
+			(xy 180.34 71.12) (xy 187.96 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f454c79f-9608-4b7f-a5fb-458bfe418c0b")
+	)
+	(wire
+		(pts
+			(xy 71.12 96.52) (xy 106.68 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc99f6c6-4c3f-4fe3-90b3-7d1e8bbbf345")
+	)
+	(label "CANL"
+		(at 180.34 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d06aadd-30ef-44ff-b256-574eb6ecbf5f")
+	)
+	(label "CANH"
+		(at 180.34 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c86f992f-ed06-4a1f-b203-8e242f09ed93")
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 203.2 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7599588b-d352-4dc2-b99c-d43ba7500eb2")
+		(property "Reference" "#PWR063"
+			(at 203.2 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 203.2 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 203.2 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45bf511e-50a5-452b-8f44-552e6fd6a587")
+		)
+		(instances
+			(project "simplified_spincoater_v1"
+				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 195.58 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c65fb3ee-c0df-4652-a9be-b792cd78281a")
+		(property "Reference" "#PWR014"
+			(at 195.58 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 195.58 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 195.58 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8134b657-c2cd-4078-b19c-d6fd53adf3d3")
+		)
+		(instances
+			(project "simplified_spincoater_v1"
+				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 187.96 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df8ed7d2-6530-4ff8-95ed-f4b22d1a8467")
+		(property "Reference" "#PWR09"
+			(at 187.96 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 187.96 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 187.96 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24fb38c9-f00d-4e9a-9f90-bcb9fbd3ec3f")
+		)
+		(instances
+			(project "simplified_spincoater_v1"
+				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 96.52)
+		(size 30.48 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1b9d8d50-bf31-43c5-a329-47671a272977")
+		(property "Sheetname" "CAN Transceiver1"
+			(at 147.32 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN Transceiver.kicad_sch"
+			(at 147.32 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CANH" bidirectional
+			(at 177.8 99.06 0)
+			(uuid "05a51ea9-e636-4721-bdac-1c19c4b56bdc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CANL" bidirectional
+			(at 177.8 101.6 0)
+			(uuid "54f6cb58-e036-4bb0-b45d-144d727fbac9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_RX" input
+			(at 147.32 99.06 180)
+			(uuid "eab57827-ef9c-45ff-bdb8-c4134ed7f4c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_TX" input
+			(at 147.32 101.6 180)
+			(uuid "cd89a11d-a530-4f29-bad8-50a5d7c71c3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "simplified_spincoater_v1"
+				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 76.2)
+		(size 30.48 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3add5ad6-0b54-4e5f-9782-ac4eb0956462")
+		(property "Sheetname" "MCU"
+			(at 106.68 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 106.68 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PD_FAULT" input
+			(at 106.68 99.06 180)
+			(uuid "73ba8df4-3f02-487c-be46-c083eea0b65c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PD_INT_N" input
+			(at 106.68 96.52 180)
+			(uuid "be5eae0f-49c6-4e67-a3e6-35ef807deeed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PD_SCL" output
+			(at 106.68 91.44 180)
+			(uuid "874b8fdc-57ef-4564-ac3c-2bcebb85f5f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PD_SDA" bidirectional
+			(at 106.68 88.9 180)
+			(uuid "e457c84e-a933-48d8-9ee1-dcf6d08b764f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_D+" bidirectional
+			(at 106.68 81.28 180)
+			(uuid "cdef5043-7152-4ba8-bc09-10f32c59f9fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_D-" bidirectional
+			(at 106.68 83.82 180)
+			(uuid "0497c83c-4b89-43ff-89c5-3eb7a075fe80")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_12V" output
+			(at 137.16 78.74 0)
+			(uuid "915baf07-4600-45c6-a788-d8965274fbb3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STM32_EN" output
+			(at 137.16 91.44 0)
+			(uuid "4d189b88-a9f2-4ee0-b6a1-dc4169b5b215")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_RX" input
+			(at 137.16 99.06 0)
+			(uuid "8e277ebe-ef27-481e-8f4a-ef58152648a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_TX" input
+			(at 137.16 101.6 0)
+			(uuid "b5437a17-58df-4fed-8506-b23f1e84557a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "simplified_spincoater_v1"
+				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 96.52)
+		(size 30.48 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "51a0530e-a541-446c-8cbb-8049bd9a895b")
+		(property "Sheetname" "CAN Transceiver"
+			(at 190.5 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN Transceiver.kicad_sch"
+			(at 190.5 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CANH" bidirectional
+			(at 190.5 99.06 180)
+			(uuid "353e876a-b707-4972-a508-e78354999ada")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CANL" bidirectional
+			(at 190.5 101.6 180)
+			(uuid "81590213-d02f-4024-a6f7-4b4fdb67248d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_RX" input
+			(at 220.98 99.06 0)
+			(uuid "c1bec27b-dcf9-4c9b-9b03-4a3eff59f44c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_TX" input
+			(at 220.98 101.6 0)
+			(uuid "973cc361-49d4-4fb8-a8db-92fbbacffe82")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "simplified_spincoater_v1"
+				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 48.26 66.04)
+		(size 22.86 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "75063d34-989b-44fd-91d6-596ca5725e08")
+		(property "Sheetname" "USB"
+			(at 48.26 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB.kicad_sch"
+			(at 48.26 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PD_FAULT" output
+			(at 71.12 99.06 0)
+			(uuid "f28870b1-518b-4cc2-b3ad-b57dd3b88a16")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PD_INT_N" output
+			(at 71.12 96.52 0)
+			(uuid "9e2b26c5-1aff-4bd8-b55d-0387d9b358b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PD_SCL" input
+			(at 71.12 91.44 0)
+			(uuid "8c5e6e93-c9c0-4c45-9c97-ad94bad8f598")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PD_SDA" bidirectional
+			(at 71.12 88.9 0)
+			(uuid "1b8662de-33dc-4e5e-aeb8-761b732d2691")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D+" bidirectional
+			(at 71.12 81.28 0)
+			(uuid "e2a2219b-7049-4591-8f53-d1da4fa757a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D-" bidirectional
+			(at 71.12 83.82 0)
+			(uuid "7b6ac496-477a-430b-b737-a9746b3c6b58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBUS" output
+			(at 71.12 68.58 0)
+			(uuid "0713988b-c3ca-4a41-a27a-2550bef32f08")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBUS_SWITCH_GATE" output
+			(at 71.12 71.12 0)
+			(uuid "4044864e-da42-4afd-ad39-bf09d36f8ac6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "simplified_spincoater_v1"
+				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 231.14 88.9)
+		(size 22.86 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c9ec9ccd-2e72-4236-908b-58c2b4d5f776")
+		(property "Sheetname" "motor"
+			(at 231.14 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor.kicad_sch"
+			(at 231.14 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "STM32_EN" input
+			(at 231.14 91.44 180)
+			(uuid "ae80c03f-b4af-427e-84cf-0c503ccc7d77")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_RX" input
+			(at 231.14 99.06 180)
+			(uuid "6a662e2a-74b9-4035-8dda-622a53066f33")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_TX" input
+			(at 231.14 101.6 180)
+			(uuid "f809c02e-7ff1-4fc5-a04a-11ad19778d82")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "simplified_spincoater_v1"
+				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 66.04)
+		(size 33.02 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d33f9094-7ab5-4dd3-aa45-5813d399ef45")
+		(property "Sheetname" "Power"
+			(at 147.32 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 147.32 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+3V3" output
+			(at 180.34 71.12 0)
+			(uuid "f5370b75-d47e-4420-8f5c-3f7e8387315e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+12V" output
+			(at 180.34 73.66 0)
+			(uuid "02290840-af47-46ba-896e-778d966fc828")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EN_12V" input
+			(at 147.32 78.74 180)
+			(uuid "ac818a54-7343-4934-b4b8-d562be9be076")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBUS_IN" input
+			(at 147.32 68.58 180)
+			(uuid "438c8dba-c770-46e5-b001-4415050db85e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBUS" output
+			(at 180.34 76.2 0)
+			(uuid "817528c8-96fa-41ee-a9ab-4f621b1f7c94")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBUS_SWITCH_GATE" input
+			(at 147.32 71.12 180)
+			(uuid "590db82b-c31a-4a8b-b7cd-b7b1cd81a787")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "simplified_spincoater_v1"
+				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

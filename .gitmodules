@@ -1,0 +1,3 @@
+[submodule "references/moteus"]
+	path = references/moteus
+	url = https://github.com/mjbots/moteus.git
