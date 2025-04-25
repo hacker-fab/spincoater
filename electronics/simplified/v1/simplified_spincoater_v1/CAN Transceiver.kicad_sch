@@ -51,7 +51,25 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor"
+			(property "Description" "MLCC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -424,6 +442,24 @@
 					(hide yes)
 				)
 			)
+			(property "Manufacturer" "NXP Semicon"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "TJA1051TK/3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_fp_filters" "HVSON8_SOT782-1_NXP HVSON8_SOT782-1_NXP-M HVSON8_SOT782-1_NXP-L"
 				(at 0 0 0)
 				(effects
@@ -436,7 +472,7 @@
 			(symbol "TJA1051TK/3_0_1"
 				(rectangle
 					(start 0 0)
-					(end 20.32 -17.78)
+					(end 20.32 -20.32)
 					(stroke
 						(width 0)
 						(type default)
@@ -481,17 +517,17 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin output line
 					(at -2.54 -12.7 0)
 					(length 2.54)
-					(name "EPAD"
+					(name "RXD"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -499,17 +535,17 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin input line
 					(at -2.54 -15.24 0)
 					(length 2.54)
-					(name "GND"
+					(name "TXD"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -553,44 +589,8 @@
 						)
 					)
 				)
-				(pin output line
+				(pin input line
 					(at 22.86 -10.16 180)
-					(length 2.54)
-					(name "RXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 22.86 -12.7 180)
-					(length 2.54)
-					(name "TXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 22.86 -15.24 180)
 					(length 2.54)
 					(name "S"
 						(effects
@@ -600,6 +600,42 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 22.86 -15.24 180)
+					(length 2.54)
+					(name "EPAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 22.86 -17.78 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3419,6 +3455,12 @@
 		)
 	)
 	(junction
+		(at 167.64 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b6b109d-8b8b-498b-a9b5-a8b622fd0fc3")
+	)
+	(junction
 		(at 137.16 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3428,7 +3470,7 @@
 		(at 167.64 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6db96b03-2f56-43a7-b7b7-f57528dd97c9")
+		(uuid "78ba2cc5-ca84-4158-a718-112b294d23c4")
 	)
 	(wire
 		(pts
@@ -3442,13 +3484,13 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 93.98) (xy 167.64 96.52)
+			(xy 167.64 96.52) (xy 167.64 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "168a7877-eb43-4574-8f2e-ccc49bf4ae50")
+		(uuid "1c14beb2-8d54-43c9-9617-d50ff34d08a0")
 	)
 	(wire
 		(pts
@@ -3462,23 +3504,13 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 93.98) (xy 139.7 93.98)
+			(xy 132.08 96.52) (xy 139.7 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3f965721-24cf-4876-a60d-b666d7d540e9")
-	)
-	(wire
-		(pts
-			(xy 137.16 96.52) (xy 139.7 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6201c7be-4032-4fa3-ab09-b9bb60adc083")
 	)
 	(wire
 		(pts
@@ -3502,13 +3534,13 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 93.98) (xy 167.64 93.98)
+			(xy 165.1 99.06) (xy 167.64 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "73287860-cc49-46c5-8c98-6844355d420f")
+		(uuid "7278f577-e85c-4f8c-af45-bac5b100bb68")
 	)
 	(wire
 		(pts
@@ -3532,7 +3564,17 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 91.44) (xy 139.7 91.44)
+			(xy 165.1 91.44) (xy 167.64 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a82b5f40-1612-4c70-ace9-b66f49e16981")
+	)
+	(wire
+		(pts
+			(xy 132.08 93.98) (xy 139.7 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3552,16 +3594,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 96.52) (xy 167.64 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc01bf1c-8bb3-493b-aa4d-527e3428492d")
-	)
-	(wire
-		(pts
 			(xy 165.1 86.36) (xy 167.64 86.36)
 		)
 		(stroke
@@ -3572,13 +3604,13 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 96.52) (xy 167.64 101.6)
+			(xy 165.1 96.52) (xy 167.64 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "de3fe7c5-1e96-41c8-951d-525042fc2248")
+		(uuid "e1d6aea3-bce7-4a63-a4fc-4c6c6e30c9c6")
 	)
 	(wire
 		(pts
@@ -3592,13 +3624,23 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 101.6) (xy 137.16 96.52)
+			(xy 167.64 96.52) (xy 167.64 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f798d4f6-4f3f-4a67-a7f5-e87041f6dcc9")
+		(uuid "e5917b73-22df-487f-8881-50d3978bda9b")
+	)
+	(wire
+		(pts
+			(xy 167.64 99.06) (xy 167.64 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1bb9002-c9db-4cd4-8a8b-32361ee36cae")
 	)
 	(hierarchical_label "CANL"
 		(shape bidirectional)
@@ -3613,7 +3655,7 @@
 	)
 	(hierarchical_label "CAN_RX"
 		(shape input)
-		(at 132.08 91.44 180)
+		(at 132.08 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3635,7 +3677,7 @@
 	)
 	(hierarchical_label "CAN_TX"
 		(shape input)
-		(at 132.08 93.98 180)
+		(at 132.08 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3646,7 +3688,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 167.64 101.6 0)
+		(at 167.64 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3655,7 +3697,7 @@
 		(fields_autoplaced yes)
 		(uuid "2710da5e-009f-4648-be5e-e408d2ccda73")
 		(property "Reference" "#PWR0119"
-			(at 167.64 107.95 0)
+			(at 167.64 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3664,7 +3706,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 167.64 106.68 0)
+			(at 167.64 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3672,7 +3714,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 101.6 0)
+			(at 167.64 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3681,7 +3723,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 101.6 0)
+			(at 167.64 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3690,7 +3732,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 101.6 0)
+			(at 167.64 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3715,76 +3757,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 137.16 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c5000e6-ea93-4d68-9d76-f170f52f2cab")
-		(property "Reference" "#PWR0118"
-			(at 137.16 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 137.16 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "669d1367-aa0d-4d2d-8a9d-7c4b646de620")
-		)
-		(instances
-			(project "simplified_spincoater_v1"
-				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/1b9d8d50-bf31-43c5-a329-47671a272977"
-					(reference "#PWR0118")
-					(unit 1)
-				)
-				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/51a0530e-a541-446c-8cbb-8049bd9a895b"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "simplified_spincoater_v1:TJA1051TK/3")
 		(at 142.24 81.28 0)
 		(unit 1)
@@ -3792,22 +3764,23 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2e9db1fc-5214-4858-86be-c13ccf4b7bcf")
 		(property "Reference" "U18"
-			(at 152.4 76.2 0)
+			(at 142.24 81.28 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Value" "TJA1051TK/3"
-			(at 152.4 78.74 0)
+			(at 142.24 104.14 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Footprint" "simplified_spincoater_v1:TJA1051TK_3"
@@ -3831,6 +3804,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 142.24 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "NXP Semicon"
+			(at 142.24 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "TJA1051TK/3"
 			(at 142.24 81.28 0)
 			(effects
 				(font
@@ -4028,8 +4019,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "655f1005-7a0f-4009-a2cf-862f4bfdf729")
-		(property "Reference" "C59"
+		(uuid "c3072333-5a3a-4a0a-bd97-31ec05ca6156")
+		(property "Reference" "C42"
 			(at 104.14 90.1699 0)
 			(effects
 				(font
@@ -4065,7 +4056,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "MLCC"
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM155R62A104ME14D"
 			(at 101.6 91.44 0)
 			(effects
 				(font
@@ -4075,19 +4084,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "71792c90-7e41-4de2-98ad-7daa2d16027e")
+			(uuid "5a0052b7-8bf9-4bd9-947c-3491a5993114")
 		)
 		(pin "1"
-			(uuid "b2ae2841-f5fa-477d-830f-b560f935bbbd")
+			(uuid "7e1c7d5f-73be-48cc-bcb4-cecc4c848431")
 		)
 		(instances
 			(project "simplified_spincoater_v1"
 				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/1b9d8d50-bf31-43c5-a329-47671a272977"
-					(reference "C59")
+					(reference "C42")
 					(unit 1)
 				)
 				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/51a0530e-a541-446c-8cbb-8049bd9a895b"
-					(reference "C32")
+					(reference "C43")
 					(unit 1)
 				)
 			)

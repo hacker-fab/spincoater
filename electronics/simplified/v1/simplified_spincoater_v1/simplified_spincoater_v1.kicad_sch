@@ -503,7 +503,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 99.06) (xy 231.14 99.06)
+			(xy 220.98 99.06) (xy 228.6 99.06)
 		)
 		(stroke
 			(width 0)
@@ -543,7 +543,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 91.44) (xy 231.14 91.44)
+			(xy 137.16 91.44) (xy 228.6 91.44)
 		)
 		(stroke
 			(width 0)
@@ -553,7 +553,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 101.6) (xy 231.14 101.6)
+			(xy 220.98 101.6) (xy 228.6 101.6)
 		)
 		(stroke
 			(width 0)
@@ -821,7 +821,7 @@
 	)
 	(sheet
 		(at 147.32 96.52)
-		(size 30.48 7.62)
+		(size 33.02 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -854,7 +854,7 @@
 			)
 		)
 		(pin "CANH" bidirectional
-			(at 177.8 99.06 0)
+			(at 180.34 99.06 0)
 			(uuid "05a51ea9-e636-4721-bdac-1c19c4b56bdc")
 			(effects
 				(font
@@ -864,7 +864,7 @@
 			)
 		)
 		(pin "CANL" bidirectional
-			(at 177.8 101.6 0)
+			(at 180.34 101.6 0)
 			(uuid "54f6cb58-e036-4bb0-b45d-144d727fbac9")
 			(effects
 				(font
@@ -1248,7 +1248,7 @@
 		)
 	)
 	(sheet
-		(at 231.14 88.9)
+		(at 228.6 88.9)
 		(size 22.86 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1264,7 +1264,7 @@
 		)
 		(uuid "c9ec9ccd-2e72-4236-908b-58c2b4d5f776")
 		(property "Sheetname" "motor"
-			(at 231.14 88.1884 0)
+			(at 228.6 88.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1273,7 +1273,7 @@
 			)
 		)
 		(property "Sheetfile" "motor.kicad_sch"
-			(at 231.14 104.7246 0)
+			(at 228.6 104.7246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1282,7 +1282,7 @@
 			)
 		)
 		(pin "STM32_EN" input
-			(at 231.14 91.44 180)
+			(at 228.6 91.44 180)
 			(uuid "ae80c03f-b4af-427e-84cf-0c503ccc7d77")
 			(effects
 				(font
@@ -1292,7 +1292,7 @@
 			)
 		)
 		(pin "CAN_RX" input
-			(at 231.14 99.06 180)
+			(at 228.6 99.06 180)
 			(uuid "6a662e2a-74b9-4035-8dda-622a53066f33")
 			(effects
 				(font
@@ -1302,7 +1302,7 @@
 			)
 		)
 		(pin "CAN_TX" input
-			(at 231.14 101.6 180)
+			(at 228.6 101.6 180)
 			(uuid "f809c02e-7ff1-4fc5-a04a-11ad19778d82")
 			(effects
 				(font

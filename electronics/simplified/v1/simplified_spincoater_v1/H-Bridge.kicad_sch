@@ -60,6 +60,24 @@
 					(hide yes)
 				)
 			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
 				(effects
@@ -396,6 +414,24 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "onsemi"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "NTTFS5C454NL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4498,6 +4534,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "onsemi"
+			(at 210.82 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "NTTFS5C454NL"
+			(at 210.82 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "26217d76-d368-4be1-abca-34ff4e8369de")
 		)
@@ -4595,6 +4649,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "onsemi"
+			(at 88.9 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "NTTFS5C454NL"
+			(at 88.9 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0ad29f08-8f1a-4845-9cb1-643a321b6e03")
 		)
@@ -4639,7 +4711,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 215.9 86.36 180)
+		(at 93.98 86.36 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4648,7 +4720,7 @@
 		(fields_autoplaced yes)
 		(uuid "243ad989-492a-472f-a392-485e26c6ef85")
 		(property "Reference" "R28"
-			(at 218.44 85.0899 0)
+			(at 96.52 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4656,8 +4728,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "22r"
-			(at 218.44 87.6299 0)
+		(property "Value" "2m"
+			(at 96.52 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4665,8 +4737,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 217.678 86.36 90)
+		(property "Footprint" "Resistor_SMD:R_0612_1632Metric"
+			(at 95.758 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4675,7 +4747,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 86.36 0)
+			(at 93.98 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4684,7 +4756,25 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 215.9 86.36 0)
+			(at 93.98 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "prosemi"
+			(at 93.98 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "MLR06A1R002F2"
+			(at 93.98 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4754,6 +4844,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 88.9 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 88.9 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "NTTFS5C454NL"
 			(at 88.9 73.66 0)
 			(effects
 				(font
@@ -4859,6 +4967,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "onsemi"
+			(at 149.86 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "NTTFS5C454NL"
+			(at 149.86 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bd8c0e56-9da2-4270-a91c-b908bb92405f")
 		)
@@ -4948,6 +5074,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 149.86 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 149.86 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "NTTFS5C454NL"
 			(at 149.86 73.66 0)
 			(effects
 				(font
@@ -5131,6 +5275,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 215.9 86.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7fc4d08-3728-401f-8c24-812e5b44bdce")
+		(property "Reference" "R30"
+			(at 218.44 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2m"
+			(at 218.44 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0612_1632Metric"
+			(at 217.678 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 215.9 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "prosemi"
+			(at 215.9 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "MLR06A1R002F2"
+			(at 215.9 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "415512ee-c4de-404c-8b04-81bcb4c2d7d5")
+		)
+		(pin "2"
+			(uuid "bca90633-528c-495b-912c-adb7784c9453")
+		)
+		(instances
+			(project "simplified_spincoater_v1"
+				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776/effaf589-d03b-428f-9cd2-be6913714a7d"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 154.94 93.98 0)
 		(unit 1)
@@ -5205,8 +5437,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dd30cdfc-dab2-4d13-a75a-4b35ab5f5ead")
-		(property "Reference" "R27"
+		(uuid "e5349522-09f4-4bac-958c-23c223e3eaa0")
+		(property "Reference" "R29"
 			(at 157.48 85.0899 0)
 			(effects
 				(font
@@ -5215,7 +5447,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "22r"
+		(property "Value" "2m"
 			(at 157.48 87.6299 0)
 			(effects
 				(font
@@ -5224,7 +5456,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0612_1632Metric"
 			(at 156.718 86.36 90)
 			(effects
 				(font
@@ -5251,16 +5483,34 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "prosemi"
+			(at 154.94 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "MLR06A1R002F2"
+			(at 154.94 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "eb5eaa30-3b1c-4dfe-b6f7-27116732963a")
+			(uuid "14d051e1-04ea-4569-9a08-e82de19a68c0")
 		)
 		(pin "2"
-			(uuid "e792df44-76df-4e36-ad1d-ae4568857e40")
+			(uuid "a2737641-3a61-4e61-b84e-772a8d674b3c")
 		)
 		(instances
 			(project "simplified_spincoater_v1"
 				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776/effaf589-d03b-428f-9cd2-be6913714a7d"
-					(reference "R27")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -5453,6 +5703,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "onsemi"
+			(at 210.82 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "NTTFS5C454NL"
+			(at 210.82 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "abc3e2c9-a529-4ec9-ab43-a59d11550d82")
 		)
@@ -5556,76 +5824,6 @@
 			(project ""
 				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776/effaf589-d03b-428f-9cd2-be6913714a7d"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 93.98 86.36 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff3aaedd-11f3-4256-912d-76e26207512e")
-		(property "Reference" "R26"
-			(at 96.52 85.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22r"
-			(at 96.52 87.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 95.758 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 93.98 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 93.98 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "08d564e9-c16f-4527-ac34-512d0eea4ea3")
-		)
-		(pin "2"
-			(uuid "1ee32c7f-7dda-40d2-8776-1e584e940365")
-		)
-		(instances
-			(project "simplified_spincoater_v1"
-				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776/effaf589-d03b-428f-9cd2-be6913714a7d"
-					(reference "R26")
 					(unit 1)
 				)
 			)

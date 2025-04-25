@@ -51,7 +51,25 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor"
+			(property "Description" "MLCC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -191,6 +209,24 @@
 				)
 			)
 			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -544,6 +580,24 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "STMicroelectronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "STM32G474VEH6"
 				(at 0 0 0)
 				(effects
 					(font
@@ -29500,17 +29554,16 @@
 		(uuid "fda18006-d953-41b1-8fa8-97215f6dd920")
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 251.46 66.04 0)
+		(lib_id "Device:C")
+		(at 88.9 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "146c0aa8-c56f-46ae-966a-c1bcc303480b")
-		(property "Reference" "R15"
-			(at 254 64.7699 0)
+		(uuid "0b582cb0-af9d-4efc-bd1b-6dac04b6e9d2")
+		(property "Reference" "C30"
+			(at 91.44 171.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29518,8 +29571,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 254 67.3099 0)
+		(property "Value" "1u"
+			(at 91.44 173.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29527,8 +29580,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 249.682 66.04 90)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 89.8652 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29537,7 +29590,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 66.04 0)
+			(at 88.9 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29545,8 +29598,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 251.46 66.04 0)
+		(property "Description" "MLCC"
+			(at 88.9 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29554,16 +29607,34 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "6a1891fb-8aee-4db6-9c12-9f8170aa2b26")
+		(property "Manufacturer" "Murata Electronics"
+			(at 91.44 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM155R61H105KE05D"
+			(at 91.44 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "55eab6e5-dd27-4d84-9056-891681a49218")
+			(uuid "261a9627-c615-4c32-a251-3fac23d7a555")
+		)
+		(pin "1"
+			(uuid "0f039f6c-6b30-40b6-838c-23a05f30919e")
 		)
 		(instances
 			(project "simplified_spincoater_v1"
 				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776/cd663899-e504-4268-9eb7-3d3166242724"
-					(reference "R15")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -30032,6 +30103,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 58.42 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68c6d1c2-7886-42ea-8c70-77277bd510d2")
+		(property "Reference" "C48"
+			(at 60.96 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 60.96 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 59.3852 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MLCC"
+			(at 58.42 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 58.42 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM155R62A104ME14D"
+			(at 58.42 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "330881b0-3c58-4e13-a25b-99b5ce89d5a3")
+		)
+		(pin "1"
+			(uuid "0bf39532-7063-44ee-aed6-9cb812294d7c")
+		)
+		(instances
+			(project "simplified_spincoater_v1"
+				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776/cd663899-e504-4268-9eb7-3d3166242724"
+					(reference "C48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "simplified_spincoater_v1:STM32G474VEH6")
 		(at 121.92 27.94 0)
 		(unit 1)
@@ -30041,21 +30200,23 @@
 		(dnp no)
 		(uuid "6d69f694-949a-4b47-968a-a87e531165d7")
 		(property "Reference" "U7"
-			(at 134.62 22.86 0)
+			(at 121.92 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(color 15 15 11 1)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Value" "STM32G474VEH6"
-			(at 134.62 25.4 0)
+			(at 121.92 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(color 15 15 11 1)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Footprint" "simplified_spincoater_v1:STM32G474VEH6"
@@ -30077,6 +30238,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 121.92 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 121.92 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "STM32G474VEH6"
 			(at 121.92 27.94 0)
 			(effects
 				(font
@@ -30395,6 +30574,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 99.06 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76699338-0b56-4261-8564-24be61466f8b")
+		(property "Reference" "C51"
+			(at 101.6 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 101.6 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 100.0252 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MLCC"
+			(at 99.06 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 99.06 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM155R62A104ME14D"
+			(at 99.06 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a7d15f83-132c-4605-86b1-06d9f04f8245")
+		)
+		(pin "1"
+			(uuid "aa29f4da-1631-472e-984f-d6358fedd1be")
+		)
+		(instances
+			(project "simplified_spincoater_v1"
+				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776/cd663899-e504-4268-9eb7-3d3166242724"
+					(reference "C51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 88.9 177.8 0)
 		(unit 1)
@@ -30468,24 +30735,25 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "876774bb-a443-4efe-a654-4a970a1b890c")
 		(property "Reference" "U7"
-			(at 127 142.24 0)
+			(at 114.3 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(color 15 15 11 1)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Value" "STM32G474VEH6"
-			(at 127 144.78 0)
+			(at 114.3 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(color 15 15 11 1)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Footprint" "simplified_spincoater_v1:STM32G474VEH6"
@@ -30507,6 +30775,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 114.3 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 114.3 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "STM32G474VEH6"
 			(at 114.3 147.32 0)
 			(effects
 				(font
@@ -30825,17 +31111,105 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 68.58 172.72 0)
+		(lib_id "Device:R")
+		(at 251.46 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "93ead41e-6341-4836-9257-537a10cb6b94")
-		(property "Reference" "C17"
-			(at 71.12 171.4499 0)
+		(uuid "87a048d1-55bc-4862-b266-6ae23d877e03")
+		(property "Reference" "R21"
+			(at 254 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 254 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 249.682 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 251.46 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 251.46 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0402FR-0710KL"
+			(at 251.46 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a411e146-6d5e-4eca-b2dd-a36c9b6c9d43")
+		)
+		(pin "2"
+			(uuid "6a1f21d4-fca9-4097-9060-79d8bad60268")
+		)
+		(instances
+			(project "simplified_spincoater_v1"
+				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776/cd663899-e504-4268-9eb7-3d3166242724"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 48.26 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92aa4869-5c90-4df3-b0a8-c66e454b8457")
+		(property "Reference" "C47"
+			(at 50.8 171.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30844,7 +31218,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 71.12 173.9899 0)
+			(at 50.8 173.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30853,7 +31227,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 69.5452 176.53 0)
+			(at 49.2252 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30862,7 +31236,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 172.72 0)
+			(at 48.26 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30870,8 +31244,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 68.58 172.72 0)
+		(property "Description" "MLCC"
+			(at 48.26 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 48.26 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM155R62A104ME14D"
+			(at 48.26 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30880,15 +31272,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "43143692-406b-4d1c-878f-e98993999ff4")
+			(uuid "3005050d-c83b-486c-9a7a-88afbb6d3973")
 		)
 		(pin "1"
-			(uuid "f257998f-26f1-4d5f-89b3-a42e3b3c9010")
+			(uuid "07f00f5a-b81b-4f4a-aaa7-2a5442d9668a")
 		)
 		(instances
 			(project "simplified_spincoater_v1"
 				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776/cd663899-e504-4268-9eb7-3d3166242724"
-					(reference "C17")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -30896,16 +31288,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 99.06 172.72 0)
+		(at 38.1 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a07ce69d-6f31-44c1-b11e-2a51f9e7de58")
-		(property "Reference" "C19"
-			(at 101.6 171.4499 0)
+		(uuid "aa5e5851-847f-404a-84bd-8f8ffa809f1f")
+		(property "Reference" "C46"
+			(at 40.64 171.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30914,7 +31306,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 101.6 173.9899 0)
+			(at 40.64 173.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30923,7 +31315,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 100.0252 176.53 0)
+			(at 39.0652 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30932,7 +31324,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 99.06 172.72 0)
+			(at 38.1 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30940,8 +31332,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 99.06 172.72 0)
+		(property "Description" "MLCC"
+			(at 38.1 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30949,51 +31341,8 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "1a7a9e51-e996-4db1-b5cf-ebef7a64648b")
-		)
-		(pin "1"
-			(uuid "791920d3-1cdd-4c8b-9547-3375453ce628")
-		)
-		(instances
-			(project "simplified_spincoater_v1"
-				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776/cd663899-e504-4268-9eb7-3d3166242724"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 88.9 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a79bf5fc-9998-478d-9388-fb8587532064")
-		(property "Reference" "C18"
-			(at 91.44 171.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 91.44 173.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 89.8652 176.53 0)
+		(property "Manufacturer" "Murata Electronics"
+			(at 38.1 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31001,17 +31350,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 88.9 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 88.9 172.72 0)
+		(property "Manufacturer Part Number" "GRM155R62A104ME14D"
+			(at 38.1 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31020,15 +31360,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "b96c7c98-dc49-4436-896f-4d222d6cee21")
+			(uuid "81d20df8-eb8c-4925-b7a2-1b289a0d8ffb")
 		)
 		(pin "1"
-			(uuid "ac71fb86-a16c-4e4b-8b4a-f629dec29089")
+			(uuid "7734e300-a6ac-4db2-a065-a9ae64f64ce5")
 		)
 		(instances
 			(project "simplified_spincoater_v1"
 				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776/cd663899-e504-4268-9eb7-3d3166242724"
-					(reference "C18")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -31042,24 +31382,25 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b80c6eba-3e3e-4da3-85dc-71c15ae3a9a4")
 		(property "Reference" "U7"
-			(at 220.98 38.1 0)
+			(at 208.28 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(color 15 15 11 1)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Value" "STM32G474VEH6"
-			(at 220.98 40.64 0)
+			(at 208.28 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(color 15 15 11 1)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Footprint" "simplified_spincoater_v1:STM32G474VEH6"
@@ -31081,6 +31422,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 208.28 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 208.28 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "STM32G474VEH6"
 			(at 208.28 43.18 0)
 			(effects
 				(font
@@ -31400,16 +31759,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 38.1 172.72 0)
+		(at 78.74 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c2968dfa-a31e-42aa-8454-f7b386bbcbb5")
-		(property "Reference" "C14"
-			(at 40.64 171.4499 0)
+		(uuid "c8d2241d-1cf0-4435-8002-7d2710822d94")
+		(property "Reference" "C50"
+			(at 81.28 171.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31418,7 +31777,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 40.64 173.9899 0)
+			(at 81.28 173.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31427,7 +31786,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 39.0652 176.53 0)
+			(at 79.7052 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31436,7 +31795,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 172.72 0)
+			(at 78.74 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31444,8 +31803,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 38.1 172.72 0)
+		(property "Description" "MLCC"
+			(at 78.74 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31453,51 +31812,8 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "0e2e9d3d-00e6-42e7-84bb-a06e26b15e6c")
-		)
-		(pin "1"
-			(uuid "dfdb0c2d-4b54-4dc5-b895-d3d270165a5d")
-		)
-		(instances
-			(project "simplified_spincoater_v1"
-				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776/cd663899-e504-4268-9eb7-3d3166242724"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 48.26 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d4e9b183-66b4-4f47-804b-32ef76ff51f6")
-		(property "Reference" "C15"
-			(at 50.8 171.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 50.8 173.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 49.2252 176.53 0)
+		(property "Manufacturer" "Murata Electronics"
+			(at 78.74 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31505,17 +31821,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 48.26 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 48.26 172.72 0)
+		(property "Manufacturer Part Number" "GRM155R62A104ME14D"
+			(at 78.74 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31524,85 +31831,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "a1116904-69dd-47ae-9335-6e0092b0868f")
+			(uuid "41a10d1b-0c88-4440-bc85-5dac35c8dd82")
 		)
 		(pin "1"
-			(uuid "f5de391b-c502-4c9d-83b3-4f74df50cb54")
+			(uuid "4af83aa4-7f38-4013-9b86-9741976da47c")
 		)
 		(instances
 			(project "simplified_spincoater_v1"
 				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776/cd663899-e504-4268-9eb7-3d3166242724"
-					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 58.42 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d5dbdb2c-c734-4451-a377-e4a73cc4d039")
-		(property "Reference" "C16"
-			(at 60.96 171.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 60.96 173.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 59.3852 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 58.42 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bf6eef84-0122-40e2-9683-afe9fe365a60")
-		)
-		(pin "1"
-			(uuid "4ebeff71-d950-4a52-a13e-7ae3793ba74e")
-		)
-		(instances
-			(project "simplified_spincoater_v1"
-				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776/cd663899-e504-4268-9eb7-3d3166242724"
-					(reference "C16")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -31675,76 +31912,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 78.74 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dcbd40b1-0824-4b29-be28-103750511a03")
-		(property "Reference" "C20"
-			(at 81.28 171.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 81.28 173.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 79.7052 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 78.74 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "603faa1f-2789-40cf-8f80-2107ee08bd9a")
-		)
-		(pin "1"
-			(uuid "f408e7ca-cc47-48af-a32c-f8bed5c3b1ca")
-		)
-		(instances
-			(project "simplified_spincoater_v1"
-				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776/cd663899-e504-4268-9eb7-3d3166242724"
-					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 48.26 177.8 0)
 		(unit 1)
@@ -31805,6 +31972,94 @@
 			(project "simplified_spincoater_v1"
 				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776/cd663899-e504-4268-9eb7-3d3166242724"
 					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 68.58 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa4d0d7a-d471-431b-ae7e-78e077a916c8")
+		(property "Reference" "C49"
+			(at 71.12 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 71.12 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 69.5452 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MLCC"
+			(at 68.58 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 68.58 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM155R62A104ME14D"
+			(at 68.58 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5eb7ca85-a91c-4815-9188-b9aa89950cbc")
+		)
+		(pin "1"
+			(uuid "e1c2ac0c-a51e-47e4-8b2a-19a64d0ca439")
+		)
+		(instances
+			(project "simplified_spincoater_v1"
+				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776/cd663899-e504-4268-9eb7-3d3166242724"
+					(reference "C49")
 					(unit 1)
 				)
 			)
