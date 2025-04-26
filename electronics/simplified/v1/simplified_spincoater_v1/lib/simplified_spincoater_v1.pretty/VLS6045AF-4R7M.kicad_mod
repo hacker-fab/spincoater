@@ -308,38 +308,6 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fe1e102c-ad5c-4a53-9924-ff4e2d0b77ed")
 	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layer "F.Cu")
-		(uuid "636f6258-fde9-4aaf-9d7f-396a59e06609")
-		(hatch full 0.508)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.254)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks not_allowed)
-			(vias not_allowed)
-			(pads allowed)
-			(copperpour not_allowed)
-			(footprints allowed)
-		)
-		(placement
-			(enabled no)
-			(sheetname "")
-		)
-		(fill
-			(thermal_gap 0.508)
-			(thermal_bridge_width 0.508)
-		)
-		(polygon
-			(pts
-				(xy -1.2446 -3.0988) (xy 1.2446 -3.0988) (xy 1.2446 3.0988) (xy -1.2446 3.0988)
-			)
-		)
-	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/lib/3D/VLS6045AF-4R7M.STEP"
 		(offset

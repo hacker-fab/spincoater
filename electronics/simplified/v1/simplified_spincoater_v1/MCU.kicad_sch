@@ -15982,6 +15982,144 @@
 				)
 			)
 		)
+		(symbol "simplified_spincoater_v1:TS-1088-AR02016"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at -2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Value" "TS-1088-AR02016"
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "simplified_spincoater_v1:TS-1088-AR02016"
+				(at 15.24 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "XUNPU"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "TS-1088-AR02016"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TS-1088-AR02016_0_0"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 0.635 1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.635 0)
+					(radius 0.3302)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TS-1088-AR02016_1_0"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.524)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 160.02 124.46)
@@ -16008,10 +16146,36 @@
 		(uuid "9a73b0a1-d423-44f6-b414-bb300543bd6d")
 	)
 	(junction
-		(at 96.52 81.28)
+		(at 86.36 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c07f30e2-e187-4794-ac66-b59f016b972a")
+	)
+	(junction
+		(at 99.06 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7a519cc-1479-40ee-9d2a-d9384648b58a")
+	)
+	(wire
+		(pts
+			(xy 81.28 81.28) (xy 86.36 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0266a7f4-00e2-47b5-93ba-9c245c39e57c")
+	)
+	(wire
+		(pts
+			(xy 157.48 104.14) (xy 160.02 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "069bccfa-b955-45b0-ba7f-2cb967ddff5d")
 	)
 	(wire
 		(pts
@@ -16022,6 +16186,36 @@
 			(type default)
 		)
 		(uuid "0ddf7344-0828-4de7-bf87-41bc68e233ac")
+	)
+	(wire
+		(pts
+			(xy 127 121.92) (xy 124.46 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12dafac8-0b3a-48eb-9f30-6a96ef64104d")
+	)
+	(wire
+		(pts
+			(xy 99.06 68.58) (xy 99.06 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13da239b-3630-40ba-8346-a726e1002f7f")
+	)
+	(wire
+		(pts
+			(xy 81.28 86.36) (xy 81.28 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "189a8208-154b-4f29-94d9-cea9146d9358")
 	)
 	(wire
 		(pts
@@ -16045,7 +16239,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 88.9) (xy 96.52 91.44)
+			(xy 86.36 91.44) (xy 86.36 93.98)
 		)
 		(stroke
 			(width 0)
@@ -16065,6 +16259,26 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 91.44) (xy 81.28 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fda6f93-c72a-4de3-85d6-fe1408babfac")
+	)
+	(wire
+		(pts
+			(xy 157.48 109.22) (xy 160.02 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "416d18ff-9180-4040-b1fe-13016636a1cd")
+	)
+	(wire
+		(pts
 			(xy 157.48 96.52) (xy 160.02 96.52)
 		)
 		(stroke
@@ -16075,7 +16289,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 58.42) (xy 96.52 63.5)
+			(xy 86.36 58.42) (xy 86.36 63.5)
 		)
 		(stroke
 			(width 0)
@@ -16102,6 +16316,16 @@
 			(type default)
 		)
 		(uuid "53bb17c9-b378-4658-bdef-82a4ed7bb0c6")
+	)
+	(wire
+		(pts
+			(xy 99.06 91.44) (xy 99.06 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55e1de03-4aca-4358-b7a9-f957f764deda")
 	)
 	(wire
 		(pts
@@ -16155,6 +16379,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 58.42) (xy 99.06 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ac407a9-9555-457f-868b-a8191ad175a1")
+	)
+	(wire
+		(pts
 			(xy 109.22 60.96) (xy 109.22 63.5)
 		)
 		(stroke
@@ -16165,17 +16399,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 83.82) (xy 160.02 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93cb6e6b-275d-4a5f-b14a-65f36dd0d27b")
-	)
-	(wire
-		(pts
-			(xy 96.52 68.58) (xy 96.52 81.28)
+			(xy 86.36 68.58) (xy 86.36 81.28)
 		)
 		(stroke
 			(width 0)
@@ -16195,13 +16419,13 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 99.06) (xy 160.02 99.06)
+			(xy 127 91.44) (xy 124.46 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a0ef323b-71ed-42bf-8f85-eb32dcd436c9")
+		(uuid "9d573f5d-8cd6-43ce-adf0-f1987d2f9c36")
 	)
 	(wire
 		(pts
@@ -16245,7 +16469,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 81.28) (xy 96.52 83.82)
+			(xy 86.36 81.28) (xy 86.36 86.36)
 		)
 		(stroke
 			(width 0)
@@ -16255,13 +16479,13 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 109.22) (xy 160.02 109.22)
+			(xy 99.06 83.82) (xy 127 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cd8077e4-9670-41ff-926f-47aba5c73783")
+		(uuid "c328d5a5-8449-4f9e-b3db-57f24f5e7c84")
 	)
 	(wire
 		(pts
@@ -16275,16 +16499,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 86.36) (xy 160.02 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db99f2a5-3e39-470c-a37d-3fdfa0482860")
-	)
-	(wire
-		(pts
 			(xy 119.38 60.96) (xy 127 60.96)
 		)
 		(stroke
@@ -16295,13 +16509,34 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 81.28) (xy 127 81.28)
+			(xy 99.06 83.82) (xy 99.06 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb95c57e-2a98-491b-b189-bb801a91d1f8")
+	)
+	(wire
+		(pts
+			(xy 86.36 81.28) (xy 127 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f5adb1ae-75c8-4171-a783-d2db2dd413d0")
+	)
+	(hierarchical_label "EN_12V"
+		(shape output)
+		(at 124.46 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1d269e6f-6e3f-4861-8a9e-7b5c11d63e83")
 	)
 	(hierarchical_label "STM32_EN"
 		(shape output)
@@ -16314,6 +16549,17 @@
 		)
 		(uuid "32235733-501a-428f-a743-46a69a0b5001")
 	)
+	(hierarchical_label "PD_INT_N"
+		(shape input)
+		(at 124.46 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "367d9687-7d1c-41d5-b219-2530d7d94920")
+	)
 	(hierarchical_label "USB_D-"
 		(shape bidirectional)
 		(at 160.02 73.66 0)
@@ -16324,28 +16570,6 @@
 			(justify left)
 		)
 		(uuid "3acb9f6f-bb94-4e4f-a02f-8f8106d8281f")
-	)
-	(hierarchical_label "CAN_TX"
-		(shape input)
-		(at 160.02 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "79a7e1b5-7664-4f46-9f9b-eda5bfbfd43a")
-	)
-	(hierarchical_label "PD_FAULT"
-		(shape input)
-		(at 160.02 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8ba68513-a93f-422e-85cd-7b9619cf532e")
 	)
 	(hierarchical_label "USB_D+"
 		(shape bidirectional)
@@ -16358,27 +16582,27 @@
 		)
 		(uuid "8cf1dca8-6491-471c-a588-2567776402f3")
 	)
-	(hierarchical_label "EN_12V"
-		(shape output)
-		(at 160.02 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "91441659-faa2-4076-8506-d27c7473cd07")
-	)
-	(hierarchical_label "PD_INT_N"
+	(hierarchical_label "PD_FAULT"
 		(shape input)
-		(at 160.02 83.82 0)
+		(at 160.02 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "a32d40fe-09a3-437e-b12e-2910778d1df5")
+		(uuid "a2163bf4-ce16-467f-bee7-878555d984aa")
+	)
+	(hierarchical_label "CAN_TX"
+		(shape input)
+		(at 160.02 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b1abff45-fe2d-41f2-b1a5-d26aa826c1ed")
 	)
 	(hierarchical_label "CAN_RX"
 		(shape input)
@@ -16621,6 +16845,98 @@
 		)
 	)
 	(symbol
+		(lib_id "simplified_spincoater_v1:TS-1088-AR02016")
+		(at 81.28 88.9 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0701c0c6-12d7-476f-9e07-56b274ea3052")
+		(property "Reference" "S1"
+			(at 78.74 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "TS-1088-AR02016"
+			(at 83.82 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "simplified_spincoater_v1:TS-1088-AR02016"
+			(at 73.66 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XUNPU"
+			(at 81.28 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "TS-1088-AR02016"
+			(at 81.28 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "301a2dbf-6ac6-4e84-80c0-2d354947edd0")
+		)
+		(pin "2"
+			(uuid "0535234c-b793-4d75-bb9d-6fdd42d7df29")
+		)
+		(instances
+			(project ""
+				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/3add5ad6-0b54-4e5f-9782-ac4eb0956462"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 160.02 127 0)
 		(unit 1)
@@ -16681,6 +16997,72 @@
 			(project "simplified_spincoater_v1"
 				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/3add5ad6-0b54-4e5f-9782-ac4eb0956462"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 81.28 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a1b349f-42eb-4b97-9a68-1c1a4bfee9d6")
+		(property "Reference" "#PWR057"
+			(at 81.28 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 81.28 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64badc9a-85d0-4ba6-99bd-daf29e9e6c47")
+		)
+		(instances
+			(project "simplified_spincoater_v1"
+				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/3add5ad6-0b54-4e5f-9782-ac4eb0956462"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -16754,7 +17136,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 96.52 58.42 0)
+		(at 86.36 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16763,7 +17145,7 @@
 		(fields_autoplaced yes)
 		(uuid "1bd8dcb1-8e67-4703-9028-46a1d2affd68")
 		(property "Reference" "#PWR037"
-			(at 96.52 62.23 0)
+			(at 86.36 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16772,7 +17154,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 96.52 53.34 0)
+			(at 86.36 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16780,7 +17162,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 58.42 0)
+			(at 86.36 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16789,7 +17171,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 58.42 0)
+			(at 86.36 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16798,7 +17180,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 96.52 58.42 0)
+			(at 86.36 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16813,6 +17195,138 @@
 			(project "simplified_spincoater_v1"
 				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/3add5ad6-0b54-4e5f-9782-ac4eb0956462"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 99.06 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "253bd506-3961-4191-ae59-d48f2d29ba61")
+		(property "Reference" "#PWR065"
+			(at 99.06 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.06 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39ba122e-3d82-48f5-8f88-70ec9fcdaf4a")
+		)
+		(instances
+			(project "simplified_spincoater_v1"
+				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/3add5ad6-0b54-4e5f-9782-ac4eb0956462"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 99.06 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fb205fd-5fd4-49b2-83b3-b166441351fb")
+		(property "Reference" "#PWR058"
+			(at 99.06 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 99.06 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 99.06 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a752bb4d-fdfa-49bb-9029-fb9794f080b0")
+		)
+		(instances
+			(project "simplified_spincoater_v1"
+				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/3add5ad6-0b54-4e5f-9782-ac4eb0956462"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -17127,7 +17641,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 96.52 91.44 0)
+		(at 86.36 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17136,7 +17650,7 @@
 		(fields_autoplaced yes)
 		(uuid "a7a3879c-2ec8-41c0-801c-d87fbf2ab5e2")
 		(property "Reference" "#PWR036"
-			(at 96.52 97.79 0)
+			(at 86.36 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17145,7 +17659,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 96.52 96.52 0)
+			(at 86.36 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17153,7 +17667,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 91.44 0)
+			(at 86.36 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17162,7 +17676,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 91.44 0)
+			(at 86.36 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17171,7 +17685,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 91.44 0)
+			(at 86.36 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17193,7 +17707,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 96.52 66.04 0)
+		(at 86.36 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17202,7 +17716,7 @@
 		(fields_autoplaced yes)
 		(uuid "cfca093e-d0e5-4abc-a2cb-a0d5cea49ef4")
 		(property "Reference" "R38"
-			(at 99.06 64.7699 0)
+			(at 88.9 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17211,7 +17725,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 99.06 67.3099 0)
+			(at 88.9 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17220,7 +17734,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 94.742 66.04 90)
+			(at 84.582 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17229,7 +17743,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 66.04 0)
+			(at 86.36 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17238,7 +17752,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 96.52 66.04 0)
+			(at 86.36 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17247,7 +17761,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 96.52 66.04 0)
+			(at 86.36 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17256,7 +17770,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RC0402FR-0710KL"
-			(at 96.52 66.04 0)
+			(at 86.36 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17280,8 +17794,100 @@
 		)
 	)
 	(symbol
+		(lib_id "simplified_spincoater_v1:TS-1088-AR02016")
+		(at 99.06 88.9 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e30bc121-ed18-40e3-b5d8-d9f8af3bf66b")
+		(property "Reference" "S2"
+			(at 96.52 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "TS-1088-AR02016"
+			(at 101.6 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "simplified_spincoater_v1:TS-1088-AR02016"
+			(at 91.44 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XUNPU"
+			(at 99.06 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "TS-1088-AR02016"
+			(at 99.06 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "772aaf87-a261-4df2-a554-8c7c6f6ced91")
+		)
+		(pin "2"
+			(uuid "e83c4314-4eef-462d-bf8f-3ad2222e2cb2")
+		)
+		(instances
+			(project "simplified_spincoater_v1"
+				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/3add5ad6-0b54-4e5f-9782-ac4eb0956462"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
-		(at 96.52 86.36 0)
+		(at 86.36 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17290,7 +17896,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec92a58d-107b-4902-8ebf-94c754882579")
 		(property "Reference" "C44"
-			(at 99.06 85.0899 0)
+			(at 88.9 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17299,7 +17905,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 99.06 87.6299 0)
+			(at 88.9 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17308,7 +17914,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 97.4852 90.17 0)
+			(at 87.3252 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17317,7 +17923,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 86.36 0)
+			(at 86.36 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17326,7 +17932,7 @@
 			)
 		)
 		(property "Description" "MLCC"
-			(at 96.52 86.36 0)
+			(at 86.36 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17335,7 +17941,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 96.52 86.36 0)
+			(at 86.36 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17344,7 +17950,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "GRM155R62A104ME14D"
-			(at 96.52 86.36 0)
+			(at 86.36 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17362,6 +17968,94 @@
 			(project "simplified_spincoater_v1"
 				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/3add5ad6-0b54-4e5f-9782-ac4eb0956462"
 					(reference "C44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 99.06 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed6e2e50-ce3e-4eca-a769-fbf77febc182")
+		(property "Reference" "R39"
+			(at 101.6 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 101.6 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 97.282 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 99.06 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 99.06 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0402FR-0710KL"
+			(at 99.06 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1bbba696-d09d-4d06-bc18-1805ec29dca5")
+		)
+		(pin "2"
+			(uuid "ce61ba0f-e3b2-4109-8932-ef9ae17f84b4")
+		)
+		(instances
+			(project "simplified_spincoater_v1"
+				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/3add5ad6-0b54-4e5f-9782-ac4eb0956462"
+					(reference "R39")
 					(unit 1)
 				)
 			)

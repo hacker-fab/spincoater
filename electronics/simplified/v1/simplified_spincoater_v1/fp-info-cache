@@ -1,4 +1,4 @@
-25249683498595950
+25251430193604897
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -101308,8 +101308,8 @@ ESP32-S3-WROOM-1
 
 
 0
-61
-61
+49
+49
 simplified_spincoater_v1
 GT-USB-7004N
 
@@ -101373,6 +101373,13 @@ XTPS62933DRLR
 0
 8
 8
+simplified_spincoater_v1
+TS-1088-AR02016
+
+
+0
+2
+2
 simplified_spincoater_v1
 VLS6045AF-4R7M
 
