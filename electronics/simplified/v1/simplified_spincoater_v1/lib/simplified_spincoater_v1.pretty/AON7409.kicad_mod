@@ -368,4 +368,15 @@
 		(uuid "b113b303-ada7-4bac-96f6-d423c5d378e3")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/3D/AON7409.step"
+		(offset
+			(xyz 0 0.3 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
 )

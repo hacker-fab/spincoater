@@ -29432,7 +29432,7 @@
 		)
 		(uuid "7ba54fc9-6b3a-449b-bacc-7f43ef1d4f1c")
 	)
-	(hierarchical_label "GATE_DRIVER_NFALUT"
+	(hierarchical_label "GATE_DRIVER_NFAULT"
 		(shape output)
 		(at 116.84 109.22 180)
 		(effects

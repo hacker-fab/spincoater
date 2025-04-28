@@ -1359,6 +1359,177 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 27.94 -66.04 180)
+					(length 2.54)
+					(hide yes)
+					(name "EPAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 27.94 -66.04 180)
+					(length 2.54)
+					(hide yes)
+					(name "EPAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 27.94 -66.04 180)
+					(length 2.54)
+					(hide yes)
+					(name "EPAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 27.94 -66.04 180)
+					(length 2.54)
+					(hide yes)
+					(name "EPAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 27.94 -66.04 180)
+					(length 2.54)
+					(hide yes)
+					(name "EPAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 27.94 -66.04 180)
+					(length 2.54)
+					(hide yes)
+					(name "EPAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 27.94 -66.04 180)
+					(length 2.54)
+					(hide yes)
+					(name "EPAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 27.94 -66.04 180)
+					(length 2.54)
+					(hide yes)
+					(name "EPAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 27.94 -66.04 180)
+					(length 2.54)
+					(hide yes)
+					(name "EPAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 			(embedded_files
@@ -16122,16 +16293,16 @@
 		)
 	)
 	(junction
-		(at 160.02 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0c84e1c9-ce48-40e8-b096-84051b278fa4")
-	)
-	(junction
 		(at 119.38 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c6310bf-5160-431a-a3ac-91527431a12f")
+	)
+	(junction
+		(at 160.02 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75101c8a-ed46-412a-88a2-f2d47254d229")
 	)
 	(junction
 		(at 109.22 60.96)
@@ -16206,6 +16377,16 @@
 			(type default)
 		)
 		(uuid "13da239b-3630-40ba-8346-a726e1002f7f")
+	)
+	(wire
+		(pts
+			(xy 157.48 124.46) (xy 160.02 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13ef6831-c657-4887-afa2-c3a5d2e47548")
 	)
 	(wire
 		(pts
@@ -16299,16 +16480,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 124.46) (xy 160.02 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52bafdcb-2d00-4702-81e8-f27ecbe82dcc")
-	)
-	(wire
-		(pts
 			(xy 157.48 73.66) (xy 160.02 73.66)
 		)
 		(stroke
@@ -16326,6 +16497,16 @@
 			(type default)
 		)
 		(uuid "55e1de03-4aca-4358-b7a9-f957f764deda")
+	)
+	(wire
+		(pts
+			(xy 160.02 124.46) (xy 160.02 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5676b45d-c323-4b6b-a4a5-4c0c00e2cb36")
 	)
 	(wire
 		(pts
@@ -16426,16 +16607,6 @@
 			(type default)
 		)
 		(uuid "9d573f5d-8cd6-43ce-adf0-f1987d2f9c36")
-	)
-	(wire
-		(pts
-			(xy 157.48 124.46) (xy 160.02 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1849617-4e2c-437d-8709-902269371686")
 	)
 	(wire
 		(pts
@@ -16834,6 +17005,33 @@
 		)
 		(pin "41"
 			(uuid "8007cca5-bc88-4960-9710-3bcba6d9ed86")
+		)
+		(pin "41_1"
+			(uuid "20e4c885-2afb-4cb0-b8a3-ef917b1fdb9e")
+		)
+		(pin "41_2"
+			(uuid "167fc8f1-8712-4f24-9441-223b514f0d94")
+		)
+		(pin "41_3"
+			(uuid "27f2a175-4795-49b7-bd23-c95281d4e7e1")
+		)
+		(pin "41_4"
+			(uuid "c3f67721-cc8e-493c-b70d-df486e1163f6")
+		)
+		(pin "41_5"
+			(uuid "4e92faaa-c2cb-4ed0-82ab-cb74466572e0")
+		)
+		(pin "41_6"
+			(uuid "647974d5-8bd9-45fb-ad90-557f2313788b")
+		)
+		(pin "41_7"
+			(uuid "986610e3-c825-4faa-a1f0-27c0d57d2ed0")
+		)
+		(pin "41_8"
+			(uuid "6853a475-8be7-40cd-931a-5d46d04e79a9")
+		)
+		(pin "41_9"
+			(uuid "1e7a3e9e-0147-49e2-af0a-d0e0d231cff9")
 		)
 		(instances
 			(project ""
