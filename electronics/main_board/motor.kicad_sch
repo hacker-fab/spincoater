@@ -77,6 +77,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 114.3) (xy 134.62 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36239e2d-9846-4df7-9b2a-3da65508b987")
+	)
+	(wire
+		(pts
 			(xy 182.88 73.66) (xy 198.12 73.66)
 		)
 		(stroke
@@ -147,16 +157,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 114.3) (xy 134.62 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65b34fe1-586d-4715-bb60-a0ff68c48916")
-	)
-	(wire
-		(pts
 			(xy 182.88 91.44) (xy 198.12 91.44)
 		)
 		(stroke
@@ -184,16 +184,6 @@
 			(type default)
 		)
 		(uuid "79c4dc34-8f0c-43c4-918a-74c0be9cbf60")
-	)
-	(wire
-		(pts
-			(xy 119.38 111.76) (xy 134.62 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cb6b3d8-7fa2-43ad-a04d-ba031ddf62f6")
 	)
 	(wire
 		(pts
@@ -284,6 +274,16 @@
 			(type default)
 		)
 		(uuid "cf1dbe2d-a22c-4821-a10c-01afc40b3ac0")
+	)
+	(wire
+		(pts
+			(xy 119.38 111.76) (xy 134.62 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d18d7ac8-7f0f-46d8-b2f3-7d07fb89a459")
 	)
 	(wire
 		(pts
@@ -397,6 +397,28 @@
 			(justify right)
 		)
 		(uuid "8ca435b6-bf8f-4282-831b-9ac04e103940")
+	)
+	(hierarchical_label "ENCODER_SCL"
+		(shape output)
+		(at 134.62 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c389087b-2a13-4e0d-94a6-fabd5d8a2b36")
+	)
+	(hierarchical_label "ENCODER_SDA"
+		(shape bidirectional)
+		(at 134.62 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fa649e5c-8b25-4e43-91a5-b7cdade914bc")
 	)
 	(sheet
 		(at 134.62 40.64)
@@ -1030,68 +1052,6 @@
 			(project "main_board"
 				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776"
 					(page "8")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 134.62 109.22)
-		(size 22.86 7.62)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "efc50d4f-520f-4f0a-8902-a20b5f981388")
-		(property "Sheetname" "Encoder"
-			(at 134.62 108.5084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Encoder.kicad_sch"
-			(at 134.62 117.4246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "ENCODER_SCL" input
-			(at 134.62 114.3 180)
-			(uuid "a032670d-d9a8-47f3-833c-af2c0175f34a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "ENCODER_SDA" bidirectional
-			(at 134.62 111.76 180)
-			(uuid "b018ac03-7ca9-4e91-9a0b-6177ead6f9dc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "main_board"
-				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776"
-					(page "9")
 				)
 			)
 		)

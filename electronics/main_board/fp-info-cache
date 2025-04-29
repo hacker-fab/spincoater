@@ -1,4 +1,4 @@
-25251430744958176
+25253177252453628
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -101276,6 +101276,13 @@ Varistor VF
 2
 2
 main_board
+AFD01-S35FCA-00
+
+
+0
+37
+37
+main_board
 AON7409
 
 
@@ -101343,8 +101350,8 @@ NTTFS5C454NL
 
 NTTFS5C454NLTAG 
 0
-8
-8
+11
+11
 main_board
 STM32G474VEH6
 

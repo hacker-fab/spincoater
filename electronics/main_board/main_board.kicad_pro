@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -808,7 +808,7 @@
     ],
     [
       "c9ec9ccd-2e72-4236-908b-58c2b4d5f776",
-      "motor"
+      "Motor"
     ],
     [
       "8cfedfa3-e17e-4fbd-8643-d9aedca2c1ef",
@@ -817,10 +817,6 @@
     [
       "cd663899-e504-4268-9eb7-3d3166242724",
       "STM32"
-    ],
-    [
-      "efc50d4f-520f-4f0a-8902-a20b5f981388",
-      "Encoder"
     ],
     [
       "c07c829e-f8c0-4206-915d-bc0510f76988",
@@ -833,6 +829,10 @@
     [
       "51a0530e-a541-446c-8cbb-8049bd9a895b",
       "CAN Transceiver"
+    ],
+    [
+      "1661b71c-886a-4aa6-891b-6d20776b8819",
+      "Expansion Port"
     ]
   ],
   "text_variables": {}

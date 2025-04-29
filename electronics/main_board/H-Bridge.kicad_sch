@@ -392,232 +392,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:VBUS"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VBUS"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VBUS\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VBUS_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VBUS_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "main_board:NTTFS5C454NL"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -628,6 +402,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Value" "NTTFS5C454NL"
@@ -636,6 +411,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" "main_board:NTTFS5C454NL"
@@ -900,6 +676,44 @@
 							)
 						)
 					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 5.08 5.08 270)
+					(length 3.175)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 5.08 5.08 270)
+					(length 3.175)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 					(number "5"
 						(effects
 							(font
@@ -958,6 +772,25 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 5.08 5.08 270)
+					(length 3.175)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3933,6 +3766,232 @@
 				)
 			)
 		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VBUS"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VBUS"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VBUS_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 215.9 50.8)
@@ -4035,6 +4094,16 @@
 			(type default)
 		)
 		(uuid "055db3b8-49cf-461d-871e-ec03cd134ccf")
+	)
+	(wire
+		(pts
+			(xy 93.98 50.8) (xy 93.98 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a9772ad-024d-4cda-a1a5-d0b3acbf7c8e")
 	)
 	(wire
 		(pts
@@ -4145,16 +4214,6 @@
 			(type default)
 		)
 		(uuid "330fdd2c-c742-436f-b954-21eb7f019daa")
-	)
-	(wire
-		(pts
-			(xy 93.98 50.8) (xy 93.98 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3995a52d-5b79-403b-b1ba-4a3fac063fee")
 	)
 	(wire
 		(pts
@@ -4828,6 +4887,15 @@
 		(pin "6"
 			(uuid "ef731531-e915-4f47-aca0-821c56f2a07b")
 		)
+		(pin "10"
+			(uuid "e6370d9a-eca7-4a68-b7fe-3b4987e6ddcf")
+		)
+		(pin "11"
+			(uuid "6c97b650-7831-41a7-86ea-3954d60dc2f4")
+		)
+		(pin "9"
+			(uuid "07e9de7e-8706-4949-b2d7-0ebde9cec33e")
+		)
 		(instances
 			(project "main_board"
 				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776/effaf589-d03b-428f-9cd2-be6913714a7d"
@@ -4943,8 +5011,17 @@
 		(pin "6"
 			(uuid "e31eb7e5-06bb-47f7-83c4-55ccbfaec880")
 		)
+		(pin "10"
+			(uuid "ae18b311-2c15-4cfd-9d97-1a01db8fc41f")
+		)
+		(pin "9"
+			(uuid "e098f376-5a43-4233-8bf7-25ee1e8e2d31")
+		)
+		(pin "11"
+			(uuid "91539588-b40a-4ae8-88c3-36a962355484")
+		)
 		(instances
-			(project ""
+			(project "main_board"
 				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776/effaf589-d03b-428f-9cd2-be6913714a7d"
 					(reference "U11")
 					(unit 1)
@@ -5146,6 +5223,15 @@
 		(pin "6"
 			(uuid "6d912084-e904-4ba5-8da3-e3759b90c7d8")
 		)
+		(pin "10"
+			(uuid "236fe25b-8e85-4bb3-970d-2cc17978a128")
+		)
+		(pin "11"
+			(uuid "0ef15174-95b4-47c8-8d8b-7b831991cb6c")
+		)
+		(pin "9"
+			(uuid "c3ffbd00-4cde-406e-a707-697b1f65b50a")
+		)
 		(instances
 			(project "main_board"
 				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776/effaf589-d03b-428f-9cd2-be6913714a7d"
@@ -5261,6 +5347,15 @@
 		(pin "6"
 			(uuid "3b3cd6b2-ff6e-475a-b007-442d6d2db40f")
 		)
+		(pin "10"
+			(uuid "756260a3-83f2-4c6f-af75-8478b87b844c")
+		)
+		(pin "11"
+			(uuid "e842d5ef-fde7-46c4-8559-0113a8a73b11")
+		)
+		(pin "9"
+			(uuid "2ac88eb5-0d22-420a-acd2-7856a672dcb0")
+		)
 		(instances
 			(project "main_board"
 				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776/effaf589-d03b-428f-9cd2-be6913714a7d"
@@ -5375,6 +5470,15 @@
 		)
 		(pin "6"
 			(uuid "f148a1e0-7ea8-40dd-9c69-d870c567deb9")
+		)
+		(pin "10"
+			(uuid "934bac13-e433-49ef-9ce4-519093998ab0")
+		)
+		(pin "11"
+			(uuid "0b14d0eb-fe5f-434f-bbcf-3fd46120de74")
+		)
+		(pin "9"
+			(uuid "6bfacd80-258b-42a0-9546-ee5cb5f42483")
 		)
 		(instances
 			(project "main_board"
@@ -5582,7 +5686,7 @@
 			(uuid "182f5157-ebdd-4acb-9165-917e5cc107b0")
 		)
 		(instances
-			(project ""
+			(project "main_board"
 				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776/effaf589-d03b-428f-9cd2-be6913714a7d"
 					(reference "J1")
 					(unit 1)
@@ -6070,6 +6174,15 @@
 		(pin "6"
 			(uuid "a0db8d4d-7591-41ed-8786-d936fab8a805")
 		)
+		(pin "10"
+			(uuid "7262aefa-b823-486d-a43b-828f75138236")
+		)
+		(pin "11"
+			(uuid "5aaa5984-5113-4800-8a8d-415a541796d2")
+		)
+		(pin "9"
+			(uuid "9c228415-5c6a-4166-8576-17e11232db4f")
+		)
 		(instances
 			(project "main_board"
 				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776/effaf589-d03b-428f-9cd2-be6913714a7d"
@@ -6137,7 +6250,7 @@
 			(uuid "a2e0f4e1-cb4e-4b5b-95b6-6c96095be22e")
 		)
 		(instances
-			(project ""
+			(project "main_board"
 				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776/effaf589-d03b-428f-9cd2-be6913714a7d"
 					(reference "#PWR016")
 					(unit 1)
