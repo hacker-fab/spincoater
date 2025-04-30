@@ -123,7 +123,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.09,
+        "min_clearance": 0.0762,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
@@ -136,7 +136,7 @@
         "min_text_height": 1.0,
         "min_text_thickness": 0.153,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.09,
+        "min_track_width": 0.0762,
         "min_via_annular_width": 0.05,
         "min_via_diameter": 0.3,
         "solder_mask_to_copper_clearance": 0.0,
@@ -188,7 +188,9 @@
       ],
       "track_widths": [
         0.0,
+        0.0762,
         0.1,
+        0.127,
         0.2032,
         0.3048
       ],
@@ -552,7 +554,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../../Downloads/main_board.step",
       "svg": "",
       "vrml": ""
     },
@@ -833,6 +835,14 @@
     [
       "1661b71c-886a-4aa6-891b-6d20776b8819",
       "Expansion Port"
+    ],
+    [
+      "2adf1f24-86ab-41de-b2f0-8b68efa85bf8",
+      "Motor Connector"
+    ],
+    [
+      "c17190ed-b9a8-4b41-81e1-f48ec32b5ef1",
+      "Pump"
     ]
   ],
   "text_variables": {}

@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 119.38 66.04) (xy 134.62 66.04)
+			(xy 101.6 68.58) (xy 116.84 68.58)
 		)
 		(stroke
 			(width 0)
@@ -17,7 +17,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 86.36) (xy 134.62 86.36)
+			(xy 101.6 88.9) (xy 116.84 88.9)
 		)
 		(stroke
 			(width 0)
@@ -27,7 +27,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 50.8) (xy 198.12 50.8)
+			(xy 165.1 53.34) (xy 180.34 53.34)
 		)
 		(stroke
 			(width 0)
@@ -37,7 +37,17 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 76.2) (xy 198.12 76.2)
+			(xy 223.52 76.2) (xy 238.76 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16feaaef-7cb6-4586-972c-9a4a5c083955")
+	)
+	(wire
+		(pts
+			(xy 165.1 78.74) (xy 180.34 78.74)
 		)
 		(stroke
 			(width 0)
@@ -47,7 +57,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 48.26) (xy 60.96 48.26)
+			(xy 40.64 50.8) (xy 43.18 50.8)
 		)
 		(stroke
 			(width 0)
@@ -57,7 +67,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 58.42) (xy 134.62 58.42)
+			(xy 101.6 60.96) (xy 116.84 60.96)
 		)
 		(stroke
 			(width 0)
@@ -67,7 +77,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 53.34) (xy 134.62 53.34)
+			(xy 101.6 55.88) (xy 116.84 55.88)
 		)
 		(stroke
 			(width 0)
@@ -77,7 +87,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 114.3) (xy 134.62 114.3)
+			(xy 101.6 116.84) (xy 116.84 116.84)
 		)
 		(stroke
 			(width 0)
@@ -87,7 +97,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 73.66) (xy 198.12 73.66)
+			(xy 165.1 76.2) (xy 180.34 76.2)
 		)
 		(stroke
 			(width 0)
@@ -97,7 +107,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 68.58) (xy 198.12 68.58)
+			(xy 165.1 71.12) (xy 180.34 71.12)
 		)
 		(stroke
 			(width 0)
@@ -107,7 +117,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 86.36) (xy 198.12 86.36)
+			(xy 165.1 88.9) (xy 180.34 88.9)
 		)
 		(stroke
 			(width 0)
@@ -117,7 +127,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 73.66) (xy 134.62 73.66)
+			(xy 101.6 76.2) (xy 116.84 76.2)
 		)
 		(stroke
 			(width 0)
@@ -127,7 +137,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 58.42) (xy 198.12 58.42)
+			(xy 165.1 60.96) (xy 180.34 60.96)
 		)
 		(stroke
 			(width 0)
@@ -137,7 +147,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 91.44) (xy 134.62 91.44)
+			(xy 101.6 93.98) (xy 116.84 93.98)
 		)
 		(stroke
 			(width 0)
@@ -147,7 +157,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 68.58) (xy 134.62 68.58)
+			(xy 101.6 71.12) (xy 116.84 71.12)
 		)
 		(stroke
 			(width 0)
@@ -157,7 +167,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 91.44) (xy 198.12 91.44)
+			(xy 165.1 93.98) (xy 180.34 93.98)
 		)
 		(stroke
 			(width 0)
@@ -167,7 +177,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 93.98) (xy 198.12 93.98)
+			(xy 165.1 96.52) (xy 180.34 96.52)
 		)
 		(stroke
 			(width 0)
@@ -177,7 +187,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 60.96) (xy 198.12 60.96)
+			(xy 165.1 63.5) (xy 180.34 63.5)
 		)
 		(stroke
 			(width 0)
@@ -187,7 +197,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 43.18) (xy 134.62 43.18)
+			(xy 101.6 45.72) (xy 116.84 45.72)
 		)
 		(stroke
 			(width 0)
@@ -197,7 +207,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 55.88) (xy 198.12 55.88)
+			(xy 165.1 58.42) (xy 180.34 58.42)
 		)
 		(stroke
 			(width 0)
@@ -207,7 +217,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 43.18) (xy 60.96 43.18)
+			(xy 40.64 45.72) (xy 43.18 45.72)
 		)
 		(stroke
 			(width 0)
@@ -217,7 +227,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 96.52) (xy 134.62 96.52)
+			(xy 101.6 99.06) (xy 116.84 99.06)
 		)
 		(stroke
 			(width 0)
@@ -227,7 +237,17 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 93.98) (xy 134.62 93.98)
+			(xy 223.52 71.12) (xy 238.76 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2e8d082-d4ff-4307-9bbd-999101596583")
+	)
+	(wire
+		(pts
+			(xy 101.6 96.52) (xy 116.84 96.52)
 		)
 		(stroke
 			(width 0)
@@ -237,7 +257,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 50.8) (xy 60.96 50.8)
+			(xy 40.64 53.34) (xy 43.18 53.34)
 		)
 		(stroke
 			(width 0)
@@ -247,7 +267,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 76.2) (xy 134.62 76.2)
+			(xy 101.6 78.74) (xy 116.84 78.74)
 		)
 		(stroke
 			(width 0)
@@ -257,7 +277,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 88.9) (xy 198.12 88.9)
+			(xy 165.1 91.44) (xy 180.34 91.44)
 		)
 		(stroke
 			(width 0)
@@ -267,7 +287,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 60.96) (xy 134.62 60.96)
+			(xy 101.6 63.5) (xy 116.84 63.5)
 		)
 		(stroke
 			(width 0)
@@ -277,7 +297,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 111.76) (xy 134.62 111.76)
+			(xy 101.6 114.3) (xy 116.84 114.3)
 		)
 		(stroke
 			(width 0)
@@ -287,7 +307,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 53.34) (xy 198.12 53.34)
+			(xy 165.1 55.88) (xy 180.34 55.88)
 		)
 		(stroke
 			(width 0)
@@ -297,7 +317,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 78.74) (xy 198.12 78.74)
+			(xy 165.1 81.28) (xy 180.34 81.28)
 		)
 		(stroke
 			(width 0)
@@ -307,7 +327,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 81.28) (xy 134.62 81.28)
+			(xy 101.6 83.82) (xy 116.84 83.82)
 		)
 		(stroke
 			(width 0)
@@ -317,7 +337,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 78.74) (xy 134.62 78.74)
+			(xy 101.6 81.28) (xy 116.84 81.28)
 		)
 		(stroke
 			(width 0)
@@ -327,7 +347,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 96.52) (xy 198.12 96.52)
+			(xy 165.1 99.06) (xy 180.34 99.06)
 		)
 		(stroke
 			(width 0)
@@ -337,7 +357,17 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 43.18) (xy 198.12 43.18)
+			(xy 223.52 73.66) (xy 238.76 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eed1e349-9622-4590-85a9-92c9fa9e9506")
+	)
+	(wire
+		(pts
+			(xy 165.1 45.72) (xy 180.34 45.72)
 		)
 		(stroke
 			(width 0)
@@ -347,7 +377,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 50.8) (xy 134.62 50.8)
+			(xy 101.6 53.34) (xy 116.84 53.34)
 		)
 		(stroke
 			(width 0)
@@ -357,7 +387,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 71.12) (xy 198.12 71.12)
+			(xy 165.1 73.66) (xy 180.34 73.66)
 		)
 		(stroke
 			(width 0)
@@ -367,7 +397,7 @@
 	)
 	(hierarchical_label "CAN_RX"
 		(shape input)
-		(at 58.42 48.26 180)
+		(at 40.64 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -378,7 +408,7 @@
 	)
 	(hierarchical_label "STM32_EN"
 		(shape input)
-		(at 58.42 43.18 180)
+		(at 40.64 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -389,7 +419,7 @@
 	)
 	(hierarchical_label "CAN_TX"
 		(shape input)
-		(at 58.42 50.8 180)
+		(at 40.64 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -400,7 +430,7 @@
 	)
 	(hierarchical_label "ENCODER_SCL"
 		(shape output)
-		(at 134.62 114.3 0)
+		(at 116.84 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -411,7 +441,7 @@
 	)
 	(hierarchical_label "ENCODER_SDA"
 		(shape bidirectional)
-		(at 134.62 111.76 0)
+		(at 116.84 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -421,7 +451,79 @@
 		(uuid "fa649e5c-8b25-4e43-91a5-b7cdade914bc")
 	)
 	(sheet
-		(at 134.62 40.64)
+		(at 238.76 66.04)
+		(size 20.32 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2adf1f24-86ab-41de-b2f0-8b68efa85bf8")
+		(property "Sheetname" "Motor Connector"
+			(at 238.76 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Motor Connector.kicad_sch"
+			(at 238.76 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MOTOR_A" bidirectional
+			(at 238.76 71.12 180)
+			(uuid "cb737f14-9eef-4d14-bfb9-f8263533a90c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOTOR_B" bidirectional
+			(at 238.76 73.66 180)
+			(uuid "d89eaadf-af2b-44c9-affd-0eede5cb1e31")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOTOR_C" bidirectional
+			(at 238.76 76.2 180)
+			(uuid "8d398843-19cc-43f2-8953-5f5d18bb8295")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "main_board"
+				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 116.84 43.18)
 		(size 48.26 58.42)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -437,7 +539,7 @@
 		)
 		(uuid "8cfedfa3-e17e-4fbd-8643-d9aedca2c1ef")
 		(property "Sheetname" "Gate Driver"
-			(at 134.62 39.9284 0)
+			(at 116.84 42.4684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -446,7 +548,7 @@
 			)
 		)
 		(property "Sheetfile" "Gate Driver.kicad_sch"
-			(at 134.62 99.6446 0)
+			(at 116.84 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -455,7 +557,7 @@
 			)
 		)
 		(pin "GATE_DRIVER_ENABLE" input
-			(at 134.62 43.18 180)
+			(at 116.84 45.72 180)
 			(uuid "ae2b29ba-6481-4ae7-a868-d4ba8fa1632d")
 			(effects
 				(font
@@ -465,7 +567,7 @@
 			)
 		)
 		(pin "GATE_DRIVER_INHA" input
-			(at 134.62 50.8 180)
+			(at 116.84 53.34 180)
 			(uuid "fe660008-2323-4c90-b1d9-48cd5dc6d703")
 			(effects
 				(font
@@ -475,7 +577,7 @@
 			)
 		)
 		(pin "GATE_DRIVER_INHB" input
-			(at 134.62 58.42 180)
+			(at 116.84 60.96 180)
 			(uuid "c5c93115-fe5a-418b-8cb0-893355840990")
 			(effects
 				(font
@@ -485,7 +587,7 @@
 			)
 		)
 		(pin "GATE_DRIVER_INHC" input
-			(at 134.62 66.04 180)
+			(at 116.84 68.58 180)
 			(uuid "d5f00f41-cd23-4109-ab78-deb1233f398e")
 			(effects
 				(font
@@ -495,7 +597,7 @@
 			)
 		)
 		(pin "GATE_DRIVER_INLA" input
-			(at 134.62 53.34 180)
+			(at 116.84 55.88 180)
 			(uuid "8e83eb52-6330-4db5-bfa3-f14bfe638b40")
 			(effects
 				(font
@@ -505,7 +607,7 @@
 			)
 		)
 		(pin "GATE_DRIVER_INLB" input
-			(at 134.62 60.96 180)
+			(at 116.84 63.5 180)
 			(uuid "1e2d6e9d-789c-421e-9e68-ec1bf8a75893")
 			(effects
 				(font
@@ -515,7 +617,7 @@
 			)
 		)
 		(pin "GATE_DRIVER_INLC" input
-			(at 134.62 68.58 180)
+			(at 116.84 71.12 180)
 			(uuid "42bf41db-18ce-405b-a896-3f403e2833e7")
 			(effects
 				(font
@@ -525,7 +627,7 @@
 			)
 		)
 		(pin "GATE_DRIVER_NSCS" input
-			(at 134.62 81.28 180)
+			(at 116.84 83.82 180)
 			(uuid "8ea0bc7c-ef02-4a23-a913-029493c880c9")
 			(effects
 				(font
@@ -535,7 +637,7 @@
 			)
 		)
 		(pin "GATE_DRIVER_SCLK" input
-			(at 134.62 78.74 180)
+			(at 116.84 81.28 180)
 			(uuid "96eb3559-1956-41de-95bc-e9c4d0e6de86")
 			(effects
 				(font
@@ -545,7 +647,7 @@
 			)
 		)
 		(pin "GATE_DRIVER_SDI" input
-			(at 134.62 73.66 180)
+			(at 116.84 76.2 180)
 			(uuid "6fece870-a17b-4066-b0cc-90b007f8444c")
 			(effects
 				(font
@@ -555,7 +657,7 @@
 			)
 		)
 		(pin "GATE_DRIVER_SDO" output
-			(at 134.62 76.2 180)
+			(at 116.84 78.74 180)
 			(uuid "dc8d3014-30c9-496d-a25b-88ce7bdae260")
 			(effects
 				(font
@@ -565,7 +667,7 @@
 			)
 		)
 		(pin "H_BRIDGE_GHA" output
-			(at 182.88 50.8 0)
+			(at 165.1 53.34 0)
 			(uuid "8b7e54d9-35bf-4d7d-9ce8-5303ef1cad85")
 			(effects
 				(font
@@ -575,7 +677,7 @@
 			)
 		)
 		(pin "H_BRIDGE_GHB" output
-			(at 182.88 68.58 0)
+			(at 165.1 71.12 0)
 			(uuid "a6369269-f3a8-4f9d-897f-3bd9f77e8214")
 			(effects
 				(font
@@ -585,7 +687,7 @@
 			)
 		)
 		(pin "H_BRIDGE_GHC" output
-			(at 182.88 86.36 0)
+			(at 165.1 88.9 0)
 			(uuid "4b2d89bf-85b8-4ba2-b678-62260fcd4de9")
 			(effects
 				(font
@@ -595,7 +697,7 @@
 			)
 		)
 		(pin "H_BRIDGE_GLA" output
-			(at 182.88 53.34 0)
+			(at 165.1 55.88 0)
 			(uuid "b099c838-4178-49b4-a0b6-bd2d0dd32f5b")
 			(effects
 				(font
@@ -605,7 +707,7 @@
 			)
 		)
 		(pin "H_BRIDGE_GLB" output
-			(at 182.88 71.12 0)
+			(at 165.1 73.66 0)
 			(uuid "cec85c05-bc5b-4461-8e3c-0aa9c9a9b7d8")
 			(effects
 				(font
@@ -615,7 +717,7 @@
 			)
 		)
 		(pin "H_BRIDGE_GLC" output
-			(at 182.88 88.9 0)
+			(at 165.1 91.44 0)
 			(uuid "4380c1bb-0475-4d21-87d7-d5bb5d6bfb86")
 			(effects
 				(font
@@ -625,7 +727,7 @@
 			)
 		)
 		(pin "H_BRIDGE_SHA" input
-			(at 182.88 55.88 0)
+			(at 165.1 58.42 0)
 			(uuid "8608c98e-25a5-4041-9ca8-d91f42622298")
 			(effects
 				(font
@@ -635,7 +737,7 @@
 			)
 		)
 		(pin "H_BRIDGE_SHB" input
-			(at 182.88 73.66 0)
+			(at 165.1 76.2 0)
 			(uuid "2f029195-8030-46ac-9176-76d3682b0800")
 			(effects
 				(font
@@ -645,7 +747,7 @@
 			)
 		)
 		(pin "H_BRIDGE_SHC" input
-			(at 182.88 91.44 0)
+			(at 165.1 93.98 0)
 			(uuid "9c057008-cbca-4955-a585-17dbd152e210")
 			(effects
 				(font
@@ -655,7 +757,7 @@
 			)
 		)
 		(pin "H_BRIDGE_SNA" input
-			(at 182.88 60.96 0)
+			(at 165.1 63.5 0)
 			(uuid "96bfe735-1528-430e-8f47-4a16317b55bb")
 			(effects
 				(font
@@ -665,7 +767,7 @@
 			)
 		)
 		(pin "H_BRIDGE_SNB" input
-			(at 182.88 78.74 0)
+			(at 165.1 81.28 0)
 			(uuid "cfa56fd4-4aa6-4a67-8c76-5c3bc9859e28")
 			(effects
 				(font
@@ -675,7 +777,7 @@
 			)
 		)
 		(pin "H_BRIDGE_SNC" input
-			(at 182.88 96.52 0)
+			(at 165.1 99.06 0)
 			(uuid "a8a9cc5f-a420-4923-8cc5-b68363c0bf35")
 			(effects
 				(font
@@ -685,7 +787,7 @@
 			)
 		)
 		(pin "H_BRIDGE_SPA" input
-			(at 182.88 58.42 0)
+			(at 165.1 60.96 0)
 			(uuid "9a43f1ba-326a-41b8-9d4d-4b232dd84371")
 			(effects
 				(font
@@ -695,7 +797,7 @@
 			)
 		)
 		(pin "H_BRIDGE_SPB" input
-			(at 182.88 76.2 0)
+			(at 165.1 78.74 0)
 			(uuid "e6fae002-1eb2-472d-a594-78c072213594")
 			(effects
 				(font
@@ -705,7 +807,7 @@
 			)
 		)
 		(pin "H_BRIDGE_SPC" input
-			(at 182.88 93.98 0)
+			(at 165.1 96.52 0)
 			(uuid "92bd1f7f-8a9e-405a-b7bb-a2d743d7e369")
 			(effects
 				(font
@@ -715,7 +817,7 @@
 			)
 		)
 		(pin "H_BRIDGE_VDRAIN" input
-			(at 182.88 43.18 0)
+			(at 165.1 45.72 0)
 			(uuid "3c36f903-d31e-47ac-bfce-0053f617d2e0")
 			(effects
 				(font
@@ -725,7 +827,7 @@
 			)
 		)
 		(pin "MOTOR_A_CURRENT_SENSE" output
-			(at 134.62 91.44 180)
+			(at 116.84 93.98 180)
 			(uuid "e5f3db2e-94e3-405e-9d88-d60c39c475df")
 			(effects
 				(font
@@ -735,7 +837,7 @@
 			)
 		)
 		(pin "MOTOR_B_CURRENT_SENSE" output
-			(at 134.62 93.98 180)
+			(at 116.84 96.52 180)
 			(uuid "5b6fda93-88bb-4233-9006-2a242de7075d")
 			(effects
 				(font
@@ -745,7 +847,7 @@
 			)
 		)
 		(pin "MOTOR_C_CURRENT_SENSE" output
-			(at 134.62 96.52 180)
+			(at 116.84 99.06 180)
 			(uuid "d9cc63df-ac33-4ba2-a8f6-6f0805128f8b")
 			(effects
 				(font
@@ -755,7 +857,7 @@
 			)
 		)
 		(pin "GATE_DRIVER_NFAULT" output
-			(at 134.62 86.36 180)
+			(at 116.84 88.9 180)
 			(uuid "81405cc2-35a2-4b9f-80e0-eca514e95850")
 			(effects
 				(font
@@ -773,7 +875,7 @@
 		)
 	)
 	(sheet
-		(at 60.96 127)
+		(at 43.18 129.54)
 		(size 180.34 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -789,7 +891,7 @@
 		)
 		(uuid "c07c829e-f8c0-4206-915d-bc0510f76988")
 		(property "Sheetname" "Capacitor Bank"
-			(at 60.96 126.2884 0)
+			(at 43.18 128.8284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -798,7 +900,7 @@
 			)
 		)
 		(property "Sheetfile" "Capacitor Bank.kicad_sch"
-			(at 60.96 140.2846 0)
+			(at 43.18 142.8246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -815,7 +917,7 @@
 		)
 	)
 	(sheet
-		(at 60.96 40.64)
+		(at 43.18 43.18)
 		(size 58.42 76.2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -831,7 +933,7 @@
 		)
 		(uuid "cd663899-e504-4268-9eb7-3d3166242724")
 		(property "Sheetname" "STM32"
-			(at 60.96 39.9284 0)
+			(at 43.18 42.4684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -840,7 +942,7 @@
 			)
 		)
 		(property "Sheetfile" "STM32.kicad_sch"
-			(at 60.96 117.4246 0)
+			(at 43.18 119.9646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -849,7 +951,7 @@
 			)
 		)
 		(pin "STM32_EN" input
-			(at 60.96 43.18 180)
+			(at 43.18 45.72 180)
 			(uuid "f5237cb3-6f12-42eb-9e88-f67bcec2baf6")
 			(effects
 				(font
@@ -859,7 +961,7 @@
 			)
 		)
 		(pin "ENCODER_SCL" output
-			(at 119.38 114.3 0)
+			(at 101.6 116.84 0)
 			(uuid "3e70ebb7-8a9c-4ff9-ab54-fb269da4bc57")
 			(effects
 				(font
@@ -869,7 +971,7 @@
 			)
 		)
 		(pin "ENCODER_SDA" bidirectional
-			(at 119.38 111.76 0)
+			(at 101.6 114.3 0)
 			(uuid "8c57d3a5-43ea-4a30-8073-f6c07139788c")
 			(effects
 				(font
@@ -879,7 +981,7 @@
 			)
 		)
 		(pin "GATE_DRIVER_ENABLE" output
-			(at 119.38 43.18 0)
+			(at 101.6 45.72 0)
 			(uuid "864df139-b0d5-4755-ae9f-2540f014d210")
 			(effects
 				(font
@@ -889,7 +991,7 @@
 			)
 		)
 		(pin "GATE_DRIVER_INHA" output
-			(at 119.38 50.8 0)
+			(at 101.6 53.34 0)
 			(uuid "074dead6-4fc3-4c86-aede-c999005c85a8")
 			(effects
 				(font
@@ -899,7 +1001,7 @@
 			)
 		)
 		(pin "GATE_DRIVER_INHB" output
-			(at 119.38 58.42 0)
+			(at 101.6 60.96 0)
 			(uuid "399f6574-9f25-4416-9d4e-f0be10310ddc")
 			(effects
 				(font
@@ -909,7 +1011,7 @@
 			)
 		)
 		(pin "GATE_DRIVER_INHC" output
-			(at 119.38 66.04 0)
+			(at 101.6 68.58 0)
 			(uuid "879baced-fdda-44e7-9500-91d339da8357")
 			(effects
 				(font
@@ -919,7 +1021,7 @@
 			)
 		)
 		(pin "GATE_DRIVER_INLA" output
-			(at 119.38 53.34 0)
+			(at 101.6 55.88 0)
 			(uuid "c4abea67-6d53-4621-94c6-be5f5048a886")
 			(effects
 				(font
@@ -929,7 +1031,7 @@
 			)
 		)
 		(pin "GATE_DRIVER_INLB" output
-			(at 119.38 60.96 0)
+			(at 101.6 63.5 0)
 			(uuid "d94e5b4e-d6da-4f67-bc46-07fcf07a6457")
 			(effects
 				(font
@@ -939,7 +1041,7 @@
 			)
 		)
 		(pin "GATE_DRIVER_INLC" output
-			(at 119.38 68.58 0)
+			(at 101.6 71.12 0)
 			(uuid "9cf7dabb-6788-46ee-a6d6-a6e913bf0be6")
 			(effects
 				(font
@@ -949,7 +1051,7 @@
 			)
 		)
 		(pin "GATE_DRIVER_NSCS" output
-			(at 119.38 81.28 0)
+			(at 101.6 83.82 0)
 			(uuid "a8d2b3e3-0f1c-4415-af14-864abbfec882")
 			(effects
 				(font
@@ -959,7 +1061,7 @@
 			)
 		)
 		(pin "GATE_DRIVER_SCLK" output
-			(at 119.38 78.74 0)
+			(at 101.6 81.28 0)
 			(uuid "755fa56e-be9b-48fa-8d88-4501b76c980a")
 			(effects
 				(font
@@ -969,7 +1071,7 @@
 			)
 		)
 		(pin "GATE_DRIVER_SDI" output
-			(at 119.38 73.66 0)
+			(at 101.6 76.2 0)
 			(uuid "8af634f0-cd37-43f3-965f-de1931a357fc")
 			(effects
 				(font
@@ -979,7 +1081,7 @@
 			)
 		)
 		(pin "GATE_DRIVER_SDO" input
-			(at 119.38 76.2 0)
+			(at 101.6 78.74 0)
 			(uuid "63e25f0d-327e-4149-885a-e7f0b6a6e8a5")
 			(effects
 				(font
@@ -989,7 +1091,7 @@
 			)
 		)
 		(pin "MOTOR_A_CURRENT_SENSE" input
-			(at 119.38 91.44 0)
+			(at 101.6 93.98 0)
 			(uuid "0667719a-bdc5-4de6-8f8f-5dbe5dd89360")
 			(effects
 				(font
@@ -999,7 +1101,7 @@
 			)
 		)
 		(pin "MOTOR_B_CURRENT_SENSE" input
-			(at 119.38 93.98 0)
+			(at 101.6 96.52 0)
 			(uuid "2ec68171-65fb-4a02-adcd-668bdb5e5e48")
 			(effects
 				(font
@@ -1009,7 +1111,7 @@
 			)
 		)
 		(pin "MOTOR_C_CURRENT_SENSE" input
-			(at 119.38 96.52 0)
+			(at 101.6 99.06 0)
 			(uuid "d4d5ffaa-4154-44f6-a30a-e7701fa958e1")
 			(effects
 				(font
@@ -1019,7 +1121,7 @@
 			)
 		)
 		(pin "CAN_RX" input
-			(at 60.96 48.26 180)
+			(at 43.18 50.8 180)
 			(uuid "3c820461-b8b1-4c7d-af18-18b55d1597b5")
 			(effects
 				(font
@@ -1029,7 +1131,7 @@
 			)
 		)
 		(pin "CAN_TX" input
-			(at 60.96 50.8 180)
+			(at 43.18 53.34 180)
 			(uuid "8fe2932c-2a2e-48ce-a7e7-163ae1a391a3")
 			(effects
 				(font
@@ -1039,7 +1141,7 @@
 			)
 		)
 		(pin "GATE_DRIVER_NFAULT" output
-			(at 119.38 86.36 0)
+			(at 101.6 88.9 0)
 			(uuid "ae3d4b18-54c9-42a4-a357-98bf24f91e2a")
 			(effects
 				(font
@@ -1057,7 +1159,7 @@
 		)
 	)
 	(sheet
-		(at 198.12 40.64)
+		(at 180.34 43.18)
 		(size 43.18 58.42)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1073,7 +1175,7 @@
 		)
 		(uuid "effaf589-d03b-428f-9cd2-be6913714a7d")
 		(property "Sheetname" "H-Bridge"
-			(at 198.12 39.9284 0)
+			(at 180.34 42.4684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1082,7 +1184,7 @@
 			)
 		)
 		(property "Sheetfile" "H-Bridge.kicad_sch"
-			(at 198.12 99.6446 0)
+			(at 180.34 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1091,7 +1193,7 @@
 			)
 		)
 		(pin "H_BRIDGE_GHA" input
-			(at 198.12 50.8 180)
+			(at 180.34 53.34 180)
 			(uuid "036c81e5-faf8-4f89-b13a-a6351a15ebd2")
 			(effects
 				(font
@@ -1101,7 +1203,7 @@
 			)
 		)
 		(pin "H_BRIDGE_GHB" input
-			(at 198.12 68.58 180)
+			(at 180.34 71.12 180)
 			(uuid "76349364-9be0-442a-8ea0-499483456537")
 			(effects
 				(font
@@ -1111,7 +1213,7 @@
 			)
 		)
 		(pin "H_BRIDGE_GHC" input
-			(at 198.12 86.36 180)
+			(at 180.34 88.9 180)
 			(uuid "f1996399-d3c9-4882-9a8e-e31e10b45340")
 			(effects
 				(font
@@ -1121,7 +1223,7 @@
 			)
 		)
 		(pin "H_BRIDGE_GLA" input
-			(at 198.12 53.34 180)
+			(at 180.34 55.88 180)
 			(uuid "55674974-1b87-4ef1-a629-174caa2843d7")
 			(effects
 				(font
@@ -1131,7 +1233,7 @@
 			)
 		)
 		(pin "H_BRIDGE_GLB" input
-			(at 198.12 71.12 180)
+			(at 180.34 73.66 180)
 			(uuid "a42b5394-5fa1-4dc9-8829-8bd4c95cf5e7")
 			(effects
 				(font
@@ -1141,7 +1243,7 @@
 			)
 		)
 		(pin "H_BRIDGE_GLC" input
-			(at 198.12 88.9 180)
+			(at 180.34 91.44 180)
 			(uuid "ee3e66a3-c541-46fe-8429-327f82672609")
 			(effects
 				(font
@@ -1151,7 +1253,7 @@
 			)
 		)
 		(pin "H_BRIDGE_SHA" output
-			(at 198.12 55.88 180)
+			(at 180.34 58.42 180)
 			(uuid "13f4d164-b60c-46cd-8038-01c8252410ed")
 			(effects
 				(font
@@ -1161,7 +1263,7 @@
 			)
 		)
 		(pin "H_BRIDGE_SHB" output
-			(at 198.12 73.66 180)
+			(at 180.34 76.2 180)
 			(uuid "e96b33d4-5753-40dd-9daa-5aeb3837a819")
 			(effects
 				(font
@@ -1171,7 +1273,7 @@
 			)
 		)
 		(pin "H_BRIDGE_SHC" output
-			(at 198.12 91.44 180)
+			(at 180.34 93.98 180)
 			(uuid "fe65cf8a-fb4c-41ee-90eb-7110e0017059")
 			(effects
 				(font
@@ -1181,7 +1283,7 @@
 			)
 		)
 		(pin "H_BRIDGE_SNA" output
-			(at 198.12 60.96 180)
+			(at 180.34 63.5 180)
 			(uuid "283b34c0-2ded-47aa-a2c6-fab1819d56de")
 			(effects
 				(font
@@ -1191,7 +1293,7 @@
 			)
 		)
 		(pin "H_BRIDGE_SNB" output
-			(at 198.12 78.74 180)
+			(at 180.34 81.28 180)
 			(uuid "5ec44540-fe18-46b6-9beb-a008efd0a4a8")
 			(effects
 				(font
@@ -1201,7 +1303,7 @@
 			)
 		)
 		(pin "H_BRIDGE_SNC" output
-			(at 198.12 96.52 180)
+			(at 180.34 99.06 180)
 			(uuid "421d608a-f78b-4cc6-89bf-2550da76ed07")
 			(effects
 				(font
@@ -1211,7 +1313,7 @@
 			)
 		)
 		(pin "H_BRIDGE_SPA" output
-			(at 198.12 58.42 180)
+			(at 180.34 60.96 180)
 			(uuid "3dbbf75d-f0fe-49ec-8977-b71031a340f8")
 			(effects
 				(font
@@ -1221,7 +1323,7 @@
 			)
 		)
 		(pin "H_BRIDGE_SPB" output
-			(at 198.12 76.2 180)
+			(at 180.34 78.74 180)
 			(uuid "26fd956e-db86-433e-8cb7-cedfe010a4ce")
 			(effects
 				(font
@@ -1231,7 +1333,7 @@
 			)
 		)
 		(pin "H_BRIDGE_SPC" output
-			(at 198.12 93.98 180)
+			(at 180.34 96.52 180)
 			(uuid "0a13e922-7b45-44b3-92c0-b2a0739efab1")
 			(effects
 				(font
@@ -1241,13 +1343,43 @@
 			)
 		)
 		(pin "H_BRIDGE_VDRAIN" input
-			(at 198.12 43.18 180)
+			(at 180.34 45.72 180)
 			(uuid "24cdeae7-b34b-41d7-85d3-5f313c21acf8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "MOTOR_A" bidirectional
+			(at 223.52 71.12 0)
+			(uuid "91de142a-010c-488f-aa54-756647e5d2a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOTOR_B" bidirectional
+			(at 223.52 73.66 0)
+			(uuid "d65e0a53-63b3-49bd-8935-6cc3e9c745aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOTOR_C" bidirectional
+			(at 223.52 76.2 0)
+			(uuid "64b0bc20-173d-477f-bbfa-a3de5df4487b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

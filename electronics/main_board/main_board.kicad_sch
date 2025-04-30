@@ -2036,6 +2036,48 @@
 		)
 	)
 	(sheet
+		(at 210.82 27.94)
+		(size 40.64 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c17190ed-b9a8-4b41-81e1-f48ec32b5ef1")
+		(property "Sheetname" "Pump"
+			(at 210.82 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Pump.kicad_sch"
+			(at 210.82 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "main_board"
+				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 200.66 66.04)
 		(size 33.02 15.24)
 		(exclude_from_sim no)
