@@ -1,4 +1,4 @@
-25253178073244252
+25263662745549153
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -101304,6 +101304,13 @@ SOD-123F SMD
 2
 2
 main_board
+DB141R-2.54-2P-GN
+
+
+0
+4
+2
+main_board
 DRV8323SRTA
 
 
@@ -101338,6 +101345,34 @@ IHLP2525CZER8R2M01
 0
 2
 2
+main_board
+KF202-5.0-3P
+
+
+0
+6
+3
+main_board
+KF211V-5.0-3P
+
+
+0
+3
+3
+main_board
+KF250NH-3.5-3P
+
+
+0
+3
+3
+main_board
+KF250NH-3.81-3P
+
+
+0
+6
+3
 main_board
 LMR51420YDD
 
@@ -101401,3 +101436,10 @@ XL-1005UOC
 0
 2
 2
+main_board
+XY115A-5.0-3P
+
+
+0
+6
+3
