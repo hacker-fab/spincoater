@@ -451,6 +451,36 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 124.46) (xy 129.54 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "363220c7-7499-4948-b491-23f3b8e92b72")
+	)
+	(wire
+		(pts
+			(xy 114.3 116.84) (xy 114.3 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39de9059-8cca-45a2-8412-30efff242460")
+	)
+	(wire
+		(pts
+			(xy 68.58 124.46) (xy 68.58 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4430eadd-fa7c-487e-975f-0d6e13a25842")
+	)
+	(wire
+		(pts
 			(xy 114.3 93.98) (xy 114.3 96.52)
 		)
 		(stroke
@@ -481,6 +511,46 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 116.84) (xy 129.54 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "849c88a2-2a97-42c5-b965-c3aa713b9c13")
+	)
+	(wire
+		(pts
+			(xy 83.82 124.46) (xy 83.82 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8813230e-ec91-4ddc-a61f-313c217ea1ec")
+	)
+	(wire
+		(pts
+			(xy 99.06 116.84) (xy 99.06 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e25aab1-dc94-458e-bbe8-65b4b16b7778")
+	)
+	(wire
+		(pts
+			(xy 114.3 124.46) (xy 114.3 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90970dd3-ed4e-40da-8a63-2b2538590bcd")
+	)
+	(wire
+		(pts
 			(xy 215.9 86.36) (xy 215.9 88.9)
 		)
 		(stroke
@@ -498,6 +568,16 @@
 			(type default)
 		)
 		(uuid "97503a8b-8c93-4b78-9611-e96a5c83e971")
+	)
+	(wire
+		(pts
+			(xy 53.34 124.46) (xy 53.34 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0381643-5cab-4f5e-b3f0-748b8644ef3b")
 	)
 	(wire
 		(pts
@@ -621,6 +701,26 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 116.84) (xy 53.34 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3d23546-8461-4de7-b1f8-bd1186ce3d22")
+	)
+	(wire
+		(pts
+			(xy 68.58 116.84) (xy 68.58 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce7bb906-981b-4144-a406-c141228b5428")
+	)
+	(wire
+		(pts
 			(xy 83.82 86.36) (xy 83.82 88.9)
 		)
 		(stroke
@@ -631,6 +731,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 124.46) (xy 99.06 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df83accd-f6b5-445e-adc2-ade197c74ac1")
+	)
+	(wire
+		(pts
 			(xy 231.14 86.36) (xy 231.14 88.9)
 		)
 		(stroke
@@ -638,6 +748,148 @@
 			(type default)
 		)
 		(uuid "eb8f2cbb-3286-439a-8b2c-b290eefa71e8")
+	)
+	(wire
+		(pts
+			(xy 83.82 116.84) (xy 83.82 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc27903c-611f-48bc-8f3e-625ffd2b7686")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 53.34 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01a9e119-3579-4191-b591-5b7334430ae3")
+		(property "Reference" "#PWR0124"
+			(at 53.34 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.34 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 53.34 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "edcf13b1-2c22-4aed-8386-308811fd282d")
+		)
+		(instances
+			(project "main_board"
+				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776/c07c829e-f8c0-4206-915d-bc0510f76988"
+					(reference "#PWR0124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 99.06 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02c0f66a-68de-487c-b3a1-ef04e2550973")
+		(property "Reference" "#PWR0129"
+			(at 99.06 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 99.06 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 99.06 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b812b825-9b6d-47ba-85b2-ea56545971af")
+		)
+		(instances
+			(project "main_board"
+				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776/c07c829e-f8c0-4206-915d-bc0510f76988"
+					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:VBUS")
@@ -839,6 +1091,159 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 114.3 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "104ffdc5-ce85-4f80-97ab-b8d4d184d6a9")
+		(property "Reference" "C41"
+			(at 116.84 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 116.84 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 115.2652 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MLCC"
+			(at 114.3 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 114.3 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM32EC72A106KE05L"
+			(at 114.3 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fd8b9503-590d-43ff-94c4-3f0f3b57ed29")
+		)
+		(pin "1"
+			(uuid "ef8a2c5a-4a36-4e43-a6e2-80dbc4e85bee")
+		)
+		(instances
+			(project "main_board"
+				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776/c07c829e-f8c0-4206-915d-bc0510f76988"
+					(reference "C41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 83.82 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "114977ae-a6bc-4d5a-9cc9-1b157cc34a9e")
+		(property "Reference" "#PWR0128"
+			(at 83.82 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.82 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 83.82 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11881141-7f0b-4d1c-9108-9a9e9c274c5f")
+		)
+		(instances
+			(project "main_board"
+				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776/c07c829e-f8c0-4206-915d-bc0510f76988"
+					(reference "#PWR0128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 99.06 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -985,6 +1390,93 @@
 			(project "main_board"
 				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776/c07c829e-f8c0-4206-915d-bc0510f76988"
 					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 68.58 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "257f8a8f-670a-43cd-9d0b-6ef0d776f03b")
+		(property "Reference" "C38"
+			(at 71.12 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 71.12 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 69.5452 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MLCC"
+			(at 68.58 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 68.58 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM32EC72A106KE05L"
+			(at 68.58 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bb20ecfa-d9ce-4f0a-9c88-3377cd544ffc")
+		)
+		(pin "1"
+			(uuid "7d9c0d57-726e-4847-986c-ec3ee4d31854")
+		)
+		(instances
+			(project "main_board"
+				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776/c07c829e-f8c0-4206-915d-bc0510f76988"
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -1474,6 +1966,159 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 83.82 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f01ff6f-3e2c-4fe1-b69a-82de1ef82371")
+		(property "Reference" "C39"
+			(at 86.36 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 86.36 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 84.7852 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MLCC"
+			(at 83.82 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 83.82 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM32EC72A106KE05L"
+			(at 83.82 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7e1d48e2-231b-4dd3-bf90-e1e517f6ae04")
+		)
+		(pin "1"
+			(uuid "3a6b5b13-bbd4-4de6-9eb3-bc066331af59")
+		)
+		(instances
+			(project "main_board"
+				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776/c07c829e-f8c0-4206-915d-bc0510f76988"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 129.54 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64d68ce1-1c5c-4335-83c9-ffc32a0eddf2")
+		(property "Reference" "#PWR0133"
+			(at 129.54 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 129.54 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 129.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2015c23f-dc26-4a98-a4eb-ef3d6f6c960d")
+		)
+		(instances
+			(project "main_board"
+				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776/c07c829e-f8c0-4206-915d-bc0510f76988"
+					(reference "#PWR0133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 170.18 96.52 0)
 		(unit 1)
@@ -1534,6 +2179,72 @@
 			(project "main_board"
 				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776/c07c829e-f8c0-4206-915d-bc0510f76988"
 					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 129.54 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fa75f74-f50b-4746-a41d-656186696b97")
+		(property "Reference" "#PWR0134"
+			(at 129.54 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 129.54 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1101cf5c-2e9e-4a23-bf00-d8eb37f87777")
+		)
+		(instances
+			(project "main_board"
+				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776/c07c829e-f8c0-4206-915d-bc0510f76988"
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -1672,6 +2383,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 68.58 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75797769-0355-431e-94f9-fb16006a264f")
+		(property "Reference" "#PWR0125"
+			(at 68.58 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 68.58 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 68.58 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53a72882-654a-4602-8ebd-e714d73b1ef0")
+		)
+		(instances
+			(project "main_board"
+				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776/c07c829e-f8c0-4206-915d-bc0510f76988"
+					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 129.54 91.44 0)
 		(unit 1)
@@ -1759,6 +2536,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 99.06 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "839e9d49-d75c-4878-b2e5-965724107d3d")
+		(property "Reference" "#PWR0130"
+			(at 99.06 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.06 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "436e6576-4198-4a5b-9cbd-05bbf8a2f5d2")
+		)
+		(instances
+			(project "main_board"
+				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776/c07c829e-f8c0-4206-915d-bc0510f76988"
+					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 129.54 86.36 0)
 		(unit 1)
@@ -1819,6 +2662,72 @@
 			(project "main_board"
 				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776/c07c829e-f8c0-4206-915d-bc0510f76988"
 					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 68.58 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "886bed5b-de97-4629-b48e-770af25813fd")
+		(property "Reference" "#PWR0126"
+			(at 68.58 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 68.58 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 68.58 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f759185-32e1-4842-84a2-43e4a1133035")
+		)
+		(instances
+			(project "main_board"
+				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776/c07c829e-f8c0-4206-915d-bc0510f76988"
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -2219,6 +3128,291 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
+		(at 83.82 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9dd5530-ccba-42d5-8de5-01f370956b4c")
+		(property "Reference" "#PWR0127"
+			(at 83.82 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 83.82 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 83.82 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eaf1e2b1-4532-495c-ab53-28bc67ec6013")
+		)
+		(instances
+			(project "main_board"
+				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776/c07c829e-f8c0-4206-915d-bc0510f76988"
+					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 53.34 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba43a2d1-8b53-430f-8c67-fae3a7d8a419")
+		(property "Reference" "#PWR0123"
+			(at 53.34 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 53.34 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 53.34 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74f05bee-e9fe-4572-94eb-bb92d42aff66")
+		)
+		(instances
+			(project "main_board"
+				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776/c07c829e-f8c0-4206-915d-bc0510f76988"
+					(reference "#PWR0123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 53.34 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bdf87929-7738-44c6-8a53-cd91ce2df368")
+		(property "Reference" "C37"
+			(at 55.88 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 55.88 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 54.3052 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MLCC"
+			(at 53.34 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 53.34 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM32EC72A106KE05L"
+			(at 53.34 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ba89206d-aef6-4c27-9479-9419687aba27")
+		)
+		(pin "1"
+			(uuid "6f25ac20-decd-470b-913f-c30954c362e9")
+		)
+		(instances
+			(project "main_board"
+				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776/c07c829e-f8c0-4206-915d-bc0510f76988"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 114.3 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c049589c-c0c8-4ed8-ba9b-838adebeb561")
+		(property "Reference" "#PWR0131"
+			(at 114.3 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 114.3 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 114.3 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95efcb27-ef51-4ca1-8b07-4f217330d62b")
+		)
+		(instances
+			(project "main_board"
+				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776/c07c829e-f8c0-4206-915d-bc0510f76988"
+					(reference "#PWR0131")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
 		(at 99.06 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2278,6 +3472,93 @@
 			(project "main_board"
 				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776/c07c829e-f8c0-4206-915d-bc0510f76988"
 					(reference "#PWR099")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 129.54 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c51b5802-f2cd-4616-b588-e3bd6fe0be0d")
+		(property "Reference" "C52"
+			(at 132.08 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 132.08 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 130.5052 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MLCC"
+			(at 129.54 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 129.54 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM32EC72A106KE05L"
+			(at 129.54 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9990ffba-ab5e-41c0-a3fd-2f906be55841")
+		)
+		(pin "1"
+			(uuid "079c76ef-0073-4565-b403-45817fb89844")
+		)
+		(instances
+			(project "main_board"
+				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776/c07c829e-f8c0-4206-915d-bc0510f76988"
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -2789,6 +4070,93 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 99.06 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e30a529e-a346-4ffc-82e6-174402360e0c")
+		(property "Reference" "C40"
+			(at 101.6 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 101.6 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 100.0252 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MLCC"
+			(at 99.06 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 99.06 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM32EC72A106KE05L"
+			(at 99.06 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "41ab5c28-af49-48af-86b4-a08d59022d01")
+		)
+		(pin "1"
+			(uuid "8832f43f-ca9f-4080-9c86-d6692d77c258")
+		)
+		(instances
+			(project "main_board"
+				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776/c07c829e-f8c0-4206-915d-bc0510f76988"
+					(reference "C40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 68.58 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2956,6 +4324,72 @@
 			(project "main_board"
 				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776/c07c829e-f8c0-4206-915d-bc0510f76988"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e902f866-5c8e-4aec-806c-cd26313f0284")
+		(property "Reference" "#PWR0132"
+			(at 114.3 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f64e805-3316-4141-801c-21f538d94f86")
+		)
+		(instances
+			(project "main_board"
+				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/c9ec9ccd-2e72-4236-908b-58c2b4d5f776/c07c829e-f8c0-4206-915d-bc0510f76988"
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)

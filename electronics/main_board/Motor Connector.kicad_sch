@@ -153,23 +153,13 @@
 	)
 	(wire
 		(pts
-			(xy 127 78.74) (xy 132.08 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "033eebb6-0f8b-4329-ba67-c1e60fb3d72e")
-	)
-	(wire
-		(pts
 			(xy 127 81.28) (xy 132.08 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7eaee6dc-3aaf-44f9-be2f-28a92bec4506")
+		(uuid "4051475e-0121-4c10-9e4a-c9c03298d462")
 	)
 	(wire
 		(pts
@@ -179,7 +169,28 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "893f3058-7d24-4bcd-adc6-ca3fb29ba5d5")
+		(uuid "8eb2dcea-630e-4abc-b887-0b4caed5a174")
+	)
+	(wire
+		(pts
+			(xy 127 78.74) (xy 132.08 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c73910b1-fa32-4a7c-81d3-4b51b5555602")
+	)
+	(hierarchical_label "MOTOR_C"
+		(shape bidirectional)
+		(at 127 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3f6e3b66-d092-498a-ae81-31fe224eda50")
 	)
 	(hierarchical_label "MOTOR_B"
 		(shape bidirectional)
@@ -190,9 +201,9 @@
 			)
 			(justify right)
 		)
-		(uuid "20b9a55c-7003-443b-b640-6dd729ee2e2d")
+		(uuid "78ae4c25-c494-4a36-8e20-1d36d7fd25ca")
 	)
-	(hierarchical_label "MOTOR_C"
+	(hierarchical_label "MOTOR_A"
 		(shape bidirectional)
 		(at 127 83.82 180)
 		(effects
@@ -201,18 +212,7 @@
 			)
 			(justify right)
 		)
-		(uuid "612299f1-100b-45e3-9528-63621e012f19")
-	)
-	(hierarchical_label "MOTOR_A"
-		(shape bidirectional)
-		(at 127 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ae31009f-f2f9-4e78-863d-b308428f54ae")
+		(uuid "a998c65a-c791-49da-afdf-23873d12f5fd")
 	)
 	(symbol
 		(lib_id "main_board:KF202-5.0-3P")
