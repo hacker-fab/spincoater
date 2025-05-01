@@ -191,8 +191,10 @@
         0.0762,
         0.1,
         0.127,
+        0.158242,
         0.2032,
-        0.3048
+        0.3048,
+        0.4318
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -512,22 +514,30 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.508,
+        "name": "CAN_differential",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.381
+      },
+      {
         "clearance": 0.1524,
         "name": "Signal",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2032,
         "via_diameter": 0.5,
         "via_drill": 0.5
       },
       {
-        "clearance": 0.158242,
+        "clearance": 0.2032,
         "name": "USB_differential_pair",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2032
+        "track_width": 0.158242
       }
     ],
     "meta": {
@@ -538,11 +548,19 @@
     "netclass_patterns": [
       {
         "netclass": "USB_differential_pair",
-        "pattern": "USB_D+"
+        "pattern": "/MCU/USB_D+"
       },
       {
         "netclass": "USB_differential_pair",
-        "pattern": "USB_D-"
+        "pattern": "/MCU/USB_D-"
+      },
+      {
+        "netclass": "CAN_differential",
+        "pattern": "/CAN_N"
+      },
+      {
+        "netclass": "CAN_differential",
+        "pattern": "/CAN_P"
       }
     ]
   },

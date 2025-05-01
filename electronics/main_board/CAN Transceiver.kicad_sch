@@ -162,6 +162,150 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -0.635 1.27)
+					(end 0.635 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "main_board:TJA1051TK/3"
 			(pin_names
 				(offset 0.254)
@@ -169,22 +313,22 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 7.62 5.08 0)
+			(property "Reference" "U10"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
-					(hide yes)
+					(justify left bottom)
 				)
 			)
 			(property "Value" "TJA1051TK/3"
-				(at 7.62 2.54 0)
+				(at 0 -30.48 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
-					(hide yes)
+					(justify left bottom)
 				)
 			)
 			(property "Footprint" "main_board:TJA1051TK_3"
@@ -246,7 +390,7 @@
 			(symbol "TJA1051TK/3_0_1"
 				(rectangle
 					(start 0 0)
-					(end 20.32 -20.32)
+					(end 20.32 -27.94)
 					(stroke
 						(width 0)
 						(type default)
@@ -346,7 +490,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 22.86 -5.08 180)
+					(at 22.86 -12.7 180)
 					(length 2.54)
 					(name "CANL"
 						(effects
@@ -364,7 +508,7 @@
 					)
 				)
 				(pin input line
-					(at 22.86 -10.16 180)
+					(at 22.86 -17.78 180)
 					(length 2.54)
 					(name "S"
 						(effects
@@ -382,7 +526,7 @@
 					)
 				)
 				(pin power_out line
-					(at 22.86 -15.24 180)
+					(at 22.86 -22.86 180)
 					(length 2.54)
 					(name "EPAD"
 						(effects
@@ -400,7 +544,7 @@
 					)
 				)
 				(pin power_out line
-					(at 22.86 -17.78 180)
+					(at 22.86 -25.4 180)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -3455,10 +3599,16 @@
 		)
 	)
 	(junction
-		(at 167.64 99.06)
+		(at 167.64 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0b6b109d-8b8b-498b-a9b5-a8b622fd0fc3")
+	)
+	(junction
+		(at 170.18 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35886479-edfb-4d95-8fc1-7c862057b867")
 	)
 	(junction
 		(at 137.16 83.82)
@@ -3467,10 +3617,26 @@
 		(uuid "49e139f5-3bf6-4567-bc1f-dde3157edd4e")
 	)
 	(junction
-		(at 167.64 96.52)
+		(at 170.18 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "575fea56-1d91-443a-8992-8c9db6b5fa64")
+	)
+	(junction
+		(at 167.64 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78ba2cc5-ca84-4158-a718-112b294d23c4")
+	)
+	(wire
+		(pts
+			(xy 170.18 83.82) (xy 170.18 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "006a4943-3365-44d3-aa85-afbc1c0a9318")
 	)
 	(wire
 		(pts
@@ -3484,7 +3650,17 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 96.52) (xy 167.64 99.06)
+			(xy 177.8 81.28) (xy 177.8 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "194997b9-2191-493a-b750-1a8bce843b9a")
+	)
+	(wire
+		(pts
+			(xy 167.64 104.14) (xy 167.64 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3501,6 +3677,16 @@
 			(type default)
 		)
 		(uuid "1c8f6c60-fc4d-40f0-be51-ef7ff0f9f7b9")
+	)
+	(wire
+		(pts
+			(xy 165.1 93.98) (xy 170.18 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cf4bb20-2494-4371-9a81-186ec28efb72")
 	)
 	(wire
 		(pts
@@ -3534,13 +3720,23 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 99.06) (xy 167.64 99.06)
+			(xy 165.1 106.68) (xy 167.64 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7278f577-e85c-4f8c-af45-bac5b100bb68")
+	)
+	(wire
+		(pts
+			(xy 177.8 96.52) (xy 177.8 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74df17ba-a65a-493d-b9b2-1d164a37ca0e")
 	)
 	(wire
 		(pts
@@ -3564,13 +3760,23 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 91.44) (xy 167.64 91.44)
+			(xy 165.1 99.06) (xy 167.64 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a82b5f40-1612-4c70-ace9-b66f49e16981")
+	)
+	(wire
+		(pts
+			(xy 170.18 93.98) (xy 177.8 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b513a261-a222-438e-92bd-c744c58f5dde")
 	)
 	(wire
 		(pts
@@ -3594,7 +3800,17 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 86.36) (xy 167.64 86.36)
+			(xy 170.18 91.44) (xy 170.18 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cde5d99d-dfdb-4a46-a997-738dda73b32a")
+	)
+	(wire
+		(pts
+			(xy 177.8 96.52) (xy 180.34 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3604,7 +3820,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 96.52) (xy 167.64 96.52)
+			(xy 165.1 104.14) (xy 167.64 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3614,7 +3830,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 83.82) (xy 167.64 83.82)
+			(xy 177.8 81.28) (xy 180.34 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3624,7 +3840,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 96.52) (xy 167.64 91.44)
+			(xy 167.64 104.14) (xy 167.64 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3634,7 +3850,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 99.06) (xy 167.64 104.14)
+			(xy 167.64 106.68) (xy 167.64 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3642,9 +3858,29 @@
 		)
 		(uuid "f1bb9002-c9db-4cd4-8a8b-32361ee36cae")
 	)
+	(wire
+		(pts
+			(xy 170.18 83.82) (xy 177.8 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1e461e5-2656-4096-8ecd-5929d9dbb09e")
+	)
+	(wire
+		(pts
+			(xy 165.1 83.82) (xy 170.18 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f53537f7-c0ed-4cc6-8258-2bbaee31201c")
+	)
 	(hierarchical_label "CANL"
 		(shape bidirectional)
-		(at 167.64 86.36 0)
+		(at 180.34 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3666,7 +3902,7 @@
 	)
 	(hierarchical_label "CANH"
 		(shape bidirectional)
-		(at 167.64 83.82 0)
+		(at 180.34 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3688,7 +3924,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 167.64 104.14 0)
+		(at 167.64 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3697,7 +3933,7 @@
 		(fields_autoplaced yes)
 		(uuid "2710da5e-009f-4648-be5e-e408d2ccda73")
 		(property "Reference" "#PWR0119"
-			(at 167.64 110.49 0)
+			(at 167.64 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3706,7 +3942,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 167.64 109.22 0)
+			(at 167.64 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3714,7 +3950,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 104.14 0)
+			(at 167.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3723,7 +3959,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 104.14 0)
+			(at 167.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3732,7 +3968,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 104.14 0)
+			(at 167.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3775,7 +4011,7 @@
 			)
 		)
 		(property "Value" "TJA1051TK/3"
-			(at 142.24 104.14 0)
+			(at 142.24 111.76 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3865,6 +4101,98 @@
 				)
 				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/51a0530e-a541-446c-8cbb-8049bd9a895b"
 					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 170.18 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31bf6cea-c07a-4e58-ae79-692776cd53e6")
+		(property "Reference" "R18"
+			(at 172.72 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "120"
+			(at 172.72 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 168.402 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 170.18 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Intertech"
+			(at 170.18 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW0603120RFKEAHP"
+			(at 170.18 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95d7ec6e-b203-4d27-a84d-696c71fbcf6a")
+		)
+		(pin "2"
+			(uuid "8907d344-fd7f-42c1-83d6-9015a6e3ffe1")
+		)
+		(instances
+			(project "main_board"
+				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/1b9d8d50-bf31-43c5-a329-47671a272977"
+					(reference "R18")
+					(unit 1)
+				)
+				(path "/82f7d8d0-a6dd-48aa-80fa-49fc2cccb16f/51a0530e-a541-446c-8cbb-8049bd9a895b"
+					(reference "R19")
 					(unit 1)
 				)
 			)

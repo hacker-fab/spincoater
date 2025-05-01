@@ -867,7 +867,7 @@
 		)
 		(uuid "fc99f6c6-4c3f-4fe3-90b3-7d1e8bbbf345")
 	)
-	(label "CANL"
+	(label "CAN_N"
 		(at 152.4 78.74 0)
 		(effects
 			(font
@@ -877,7 +877,7 @@
 		)
 		(uuid "6d06aadd-30ef-44ff-b256-574eb6ecbf5f")
 	)
-	(label "CANH"
+	(label "CAN_P"
 		(at 152.4 76.2 0)
 		(effects
 			(font
