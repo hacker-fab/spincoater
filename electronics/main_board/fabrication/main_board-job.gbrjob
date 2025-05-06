@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "9.0.1"
+      "Version": "9.99.0-1168-g72ed3d3f11"
     },
-    "CreationDate": "2025-05-02T15:06:27-04:00"
+    "CreationDate": "2025-05-05T23:22:12-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -132,6 +132,7 @@
     },
     {
       "Type": "Dielectric",
+      "Color": "R128G128B128",
       "Thickness": 0.0994,
       "Material": "FR4",
       "Name": "1_signal.Cu/2_gnd.Cu",
@@ -144,6 +145,7 @@
     },
     {
       "Type": "Dielectric",
+      "Color": "R128G128B128",
       "Thickness": 0.55,
       "Material": "FR4",
       "Name": "2_gnd.Cu/3_signal.Cu",
@@ -180,6 +182,7 @@
     },
     {
       "Type": "Dielectric",
+      "Color": "R128G128B128",
       "Thickness": 0.0994,
       "Material": "FR4",
       "Name": "5_gnd.Cu/6_signal.Cu",

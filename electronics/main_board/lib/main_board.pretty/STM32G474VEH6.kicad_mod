@@ -1,7 +1,7 @@
 (footprint "STM32G474VEH6"
-	(version 20241229)
+	(version 20250401)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(layer "F.Cu")
 	(tags "STM32G474VEH6 ")
 	(property "Reference" "REF**"
@@ -9,7 +9,7 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "03987a76-111c-4650-994b-785359e91ecd")
+		(uuid "2ecb3ee8-ef17-45e1-a472-c12ebb7142b7")
 		(effects
 			(font
 				(size 1 1)
@@ -22,7 +22,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a74e41eb-9c45-40d8-a654-a337cfc607d1")
+		(uuid "01966756-e8e9-4bb1-b6aa-b14cecebf3a4")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +34,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8f4eb520-f946-436e-9e45-575e9098b9c7")
+		(uuid "ae076ca9-b21a-4a20-b095-03b1825015be")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46,7 +46,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a455889c-e2ff-4c18-8182-22c3febebe00")
+		(uuid "0ec0d11f-2929-4e92-bee4-f408782e2ba5")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -55,49 +55,50 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start -4.11 4.11)
-		(end -4.11 -3.11)
+		(start -4.1 -4.12)
+		(end 4.12 -4.12)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "459e8a0f-603d-4c7f-9dc3-2e2adf451fda")
+		(uuid "d34473d7-6aca-4eb5-aac9-29f3f3d97c40")
 	)
 	(fp_line
-		(start -3.11 -4.11)
-		(end 4.11 -4.11)
+		(start -4.1 4.1)
+		(end -4.1 -4.12)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "3b3188cd-442c-4718-abe2-cfb0e282ea4c")
+		(uuid "d00f4b0d-ef98-4de1-af33-3f6e5625858a")
 	)
 	(fp_line
-		(start 4.11 -4.11)
-		(end 4.11 4.11)
+		(start 4.12 -4.12)
+		(end 4.12 4.1)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "ef8a57ef-5bc2-428b-89f2-9e265917dc83")
+		(uuid "51d98c34-717c-4722-9a05-32b22be9f8eb")
 	)
 	(fp_line
-		(start 4.11 4.11)
-		(end -4.11 4.11)
+		(start 4.12 4.1)
+		(end -4.1 4.1)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "4927e40f-8199-4f29-a11f-af1d76043758")
+		(uuid "4fd4ad1e-1bba-4afa-a05c-647a20f335f7")
 	)
 	(fp_poly
 		(pts
-			(xy -4.11 -4.11) (xy -4.61 -4.11) (xy -4.11 -4.61)
+			(xy -3.6 -4.3) (xy -3.9 -4.6) (xy -3.3 -4.6)
 		)
 		(stroke
 			(width 0.12)
@@ -105,7 +106,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "bd8fdb83-7864-4a3e-b8d3-124f3cbfc119")
+		(uuid "f786dc29-cabc-4c7a-8340-fb90d41a18de")
 	)
 	(fp_line
 		(start -5 -5)
@@ -213,6 +214,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "0869d645-bd31-47b4-94be-e6c52b9de816")
 	)
 	(pad "A2" smd circle
@@ -220,6 +225,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e3890a59-275c-45db-82bd-bb486dc1ea52")
 	)
 	(pad "A3" smd circle
@@ -227,6 +236,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "756abcae-b137-475d-a8c8-8e18a4f0c21b")
 	)
 	(pad "A4" smd circle
@@ -234,6 +247,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "515279b4-93c0-4cca-b889-3b444817a073")
 	)
 	(pad "A5" smd circle
@@ -241,6 +258,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "576086d8-0ad9-49f0-9f08-d8750f062c2c")
 	)
 	(pad "A6" smd circle
@@ -248,6 +269,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "755e4c93-61bf-4ed5-9ddc-639be66bac41")
 	)
 	(pad "A7" smd circle
@@ -255,6 +280,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "7941ffba-d370-42c8-85f0-da59ba5b095c")
 	)
 	(pad "A8" smd circle
@@ -262,6 +291,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "241f5dbf-329e-48f7-8564-56402094104a")
 	)
 	(pad "A9" smd circle
@@ -269,6 +302,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "02fb42a6-ca77-4870-bb2e-b8e3f9b6f4d4")
 	)
 	(pad "A10" smd circle
@@ -276,6 +313,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "792144ab-8589-4ebb-9508-ee6683d4ef5a")
 	)
 	(pad "B1" smd circle
@@ -283,6 +324,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b11c2006-a08d-4995-9a4b-60afc29aec70")
 	)
 	(pad "B2" smd circle
@@ -290,6 +335,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "1d547bae-d69f-484f-b4ee-45955454dc52")
 	)
 	(pad "B3" smd circle
@@ -297,6 +346,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5e9404ce-27de-42a6-bbd4-69b24db288e8")
 	)
 	(pad "B4" smd circle
@@ -304,6 +357,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9029b3dc-f8cf-4d2d-bee7-06101050e02e")
 	)
 	(pad "B5" smd circle
@@ -311,6 +368,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "38b12913-fcba-4811-a4bf-975d66d45e88")
 	)
 	(pad "B6" smd circle
@@ -318,6 +379,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b4e5de53-2f81-4543-a527-8f65cd2b49f4")
 	)
 	(pad "B7" smd circle
@@ -325,6 +390,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2efd82f4-c509-40eb-9dc2-be6188175719")
 	)
 	(pad "B8" smd circle
@@ -332,6 +401,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "36af8c45-c8ad-49af-95bf-feb6a47a9f01")
 	)
 	(pad "B9" smd circle
@@ -339,6 +412,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "60c960dd-7eca-4efb-8d4d-0e40e55ebc11")
 	)
 	(pad "B10" smd circle
@@ -346,6 +423,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "431e3b7b-ee72-4988-9e82-dfb597fd5247")
 	)
 	(pad "C1" smd circle
@@ -353,6 +434,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5c40cd82-a60d-4411-9a96-05a23f891fee")
 	)
 	(pad "C2" smd circle
@@ -360,6 +445,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ec68757f-d8cc-4bc4-8b11-1a081e1d0fbf")
 	)
 	(pad "C3" smd circle
@@ -367,6 +456,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "e8a02a33-841c-4841-9dd2-4825bf2e1a1d")
 	)
 	(pad "C4" smd circle
@@ -374,6 +467,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "13eb1caf-56ac-43f3-b65b-9358eec55a95")
 	)
 	(pad "C5" smd circle
@@ -381,6 +478,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c0c52174-ac2d-456d-a751-b25a067b7191")
 	)
 	(pad "C6" smd circle
@@ -388,6 +489,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4988766b-c787-4f0b-afc0-b3fca2dbb021")
 	)
 	(pad "C7" smd circle
@@ -395,6 +500,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "789e9fc0-9fd9-4247-b370-9c5364bf17e2")
 	)
 	(pad "C8" smd circle
@@ -402,6 +511,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "abd4d723-ec76-4b6a-844c-c1324fd5ee3c")
 	)
 	(pad "C9" smd circle
@@ -409,6 +522,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ad05cb56-ead1-4ef2-9091-2101a2b9d7d1")
 	)
 	(pad "C10" smd circle
@@ -416,6 +533,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "034921f1-028c-4128-9c05-e1c0bbcb4096")
 	)
 	(pad "D1" smd circle
@@ -423,6 +544,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b8783d12-6d97-4de0-8be4-4b44cb6ca4dd")
 	)
 	(pad "D2" smd circle
@@ -430,6 +555,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "761891b9-0e61-4e03-b951-8186d7e861f0")
 	)
 	(pad "D3" smd circle
@@ -437,6 +566,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "646fbf82-e709-44de-be1a-34626cbbc5e7")
 	)
 	(pad "D4" smd circle
@@ -444,6 +577,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f7b1efc6-e02d-4fa7-84b0-f633d5a45bd6")
 	)
 	(pad "D5" smd circle
@@ -451,6 +588,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "50fb48e5-bd79-4849-ad7d-ed70304eaed6")
 	)
 	(pad "D6" smd circle
@@ -458,6 +599,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f9e841ed-54af-4b91-b408-b831863626b0")
 	)
 	(pad "D7" smd circle
@@ -465,6 +610,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "76fc8f2d-4c9c-490b-9df1-c7f5238bab5f")
 	)
 	(pad "D8" smd circle
@@ -472,6 +621,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4b1699aa-edf0-4ec5-8b28-91f88e0f10fe")
 	)
 	(pad "D9" smd circle
@@ -479,6 +632,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "cdf68895-c014-424d-a335-d86493b5d217")
 	)
 	(pad "D10" smd circle
@@ -486,6 +643,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "7867af00-4085-4641-99ac-92defb2e4ff7")
 	)
 	(pad "E1" smd circle
@@ -493,6 +654,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "7196f285-68d5-4bdf-944d-b918a759cb34")
 	)
 	(pad "E2" smd circle
@@ -500,6 +665,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "63b8dee7-9e83-4636-87e5-459f82ef76c3")
 	)
 	(pad "E3" smd circle
@@ -507,6 +676,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "c9fdc64d-13bd-4278-a625-b4205f075970")
 	)
 	(pad "E4" smd circle
@@ -514,6 +687,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "5ede4b04-8f2f-4baa-8726-4d3cf296850f")
 	)
 	(pad "E5" smd circle
@@ -521,6 +698,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "24c49a9e-9350-45fa-a3cc-a4899a35b984")
 	)
 	(pad "E6" smd circle
@@ -528,6 +709,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "8d90d22a-72b7-42e3-b908-bad6f3d1c056")
 	)
 	(pad "E7" smd circle
@@ -535,6 +720,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4a2cba74-7691-4a91-82e1-66eefd5da1dc")
 	)
 	(pad "E8" smd circle
@@ -542,6 +731,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "80abb3f8-d364-4550-90d7-7307dae27f4a")
 	)
 	(pad "E9" smd circle
@@ -549,6 +742,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9723a5fe-5744-41af-a455-b4c40687fb68")
 	)
 	(pad "E10" smd circle
@@ -556,6 +753,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2df18ab8-baa2-424f-bdf7-f60f3a6587f0")
 	)
 	(pad "F1" smd circle
@@ -563,6 +764,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "52617ed0-dc7e-4c0f-bf30-88c9ac7e2de0")
 	)
 	(pad "F2" smd circle
@@ -570,6 +775,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "62900f54-dea8-4fad-b773-eae7bc24ab91")
 	)
 	(pad "F3" smd circle
@@ -577,6 +786,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "818ac025-a34c-4442-922e-498339d194c9")
 	)
 	(pad "F4" smd circle
@@ -584,6 +797,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "fbee70a9-407f-4426-b9f9-988f910d779c")
 	)
 	(pad "F5" smd circle
@@ -591,6 +808,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ecbf5acb-d357-4c6d-b835-da3fb9948e89")
 	)
 	(pad "F6" smd circle
@@ -598,6 +819,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "352eb550-ab13-4915-ba1e-7b505f81399f")
 	)
 	(pad "F7" smd circle
@@ -605,6 +830,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d7220850-a866-42b8-885c-1f4f4f367b8f")
 	)
 	(pad "F8" smd circle
@@ -612,6 +841,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "65e9df6c-0bb9-4c85-99f1-d880975889f1")
 	)
 	(pad "F9" smd circle
@@ -619,6 +852,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "7f0e61d8-5d00-4987-916e-5cc02cbd1301")
 	)
 	(pad "F10" smd circle
@@ -626,6 +863,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "1feff92a-4dad-4b93-ad21-c9aecacadbe4")
 	)
 	(pad "G1" smd circle
@@ -633,6 +874,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b28bb371-a9ca-41ef-938f-66cfe14c286b")
 	)
 	(pad "G2" smd circle
@@ -640,6 +885,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2aadf553-f734-45a9-8af9-aa46ff56a187")
 	)
 	(pad "G3" smd circle
@@ -647,6 +896,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d1824d35-a75e-4809-8ebb-b5ad43fcaeea")
 	)
 	(pad "G4" smd circle
@@ -654,6 +907,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "23a19be2-852d-4d64-ab9e-c4dc5b4b32b9")
 	)
 	(pad "G5" smd circle
@@ -661,6 +918,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b263bec2-ce7d-4dba-a12f-b63359c167e9")
 	)
 	(pad "G6" smd circle
@@ -668,6 +929,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6e139ee2-cdae-4736-a354-63c4fe480af5")
 	)
 	(pad "G7" smd circle
@@ -675,6 +940,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "44fd7fbf-c192-4a30-ab6f-a381226c7463")
 	)
 	(pad "G8" smd circle
@@ -682,6 +951,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f62ce6fb-d4ef-48d1-b0aa-8f5ceb6ffa5f")
 	)
 	(pad "G9" smd circle
@@ -689,6 +962,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "10708385-2ec6-4bfa-8845-09e489dc9346")
 	)
 	(pad "G10" smd circle
@@ -696,6 +973,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "28051657-bb81-4846-9ee0-5fad59595d53")
 	)
 	(pad "H1" smd circle
@@ -703,6 +984,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "905def31-14b9-4290-a807-255df8da983a")
 	)
 	(pad "H2" smd circle
@@ -710,6 +995,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "407f1143-b648-4db8-bf5d-5e3c95859f73")
 	)
 	(pad "H3" smd circle
@@ -717,6 +1006,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4439bedd-b9ab-4a16-8fbe-ab88525953fc")
 	)
 	(pad "H4" smd circle
@@ -724,6 +1017,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "bbd9b759-070c-477b-bf55-4a7b9f1f57d2")
 	)
 	(pad "H5" smd circle
@@ -731,6 +1028,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "3c70c703-f422-4c91-add3-a5dd0d87f1f6")
 	)
 	(pad "H6" smd circle
@@ -738,6 +1039,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "74bce73b-7536-48e4-8a72-fcf6dff7b551")
 	)
 	(pad "H7" smd circle
@@ -745,6 +1050,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ce26123c-d356-4ca8-b9cc-8be38b0e36e0")
 	)
 	(pad "H8" smd circle
@@ -752,6 +1061,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "76307872-4028-42db-91f8-8f29ee38b5f9")
 	)
 	(pad "H9" smd circle
@@ -759,6 +1072,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6bc24a52-b6f8-457b-abdd-3ef502b19f36")
 	)
 	(pad "H10" smd circle
@@ -766,6 +1083,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ebe48e3b-8316-4f69-8867-5be978f6af62")
 	)
 	(pad "J1" smd circle
@@ -773,6 +1094,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4c803486-1984-4073-a99e-4d158dcd9ef5")
 	)
 	(pad "J2" smd circle
@@ -780,6 +1105,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ca9311c7-19e3-4d8a-be39-110da934e9b4")
 	)
 	(pad "J3" smd circle
@@ -787,6 +1116,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9f99ca77-934d-4b9f-b2d1-4c74de8aa96b")
 	)
 	(pad "J4" smd circle
@@ -794,6 +1127,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "cdfb7cc6-f49d-499d-8a50-7c23204218b9")
 	)
 	(pad "J5" smd circle
@@ -801,6 +1138,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "0dee3d94-f401-46c6-bac0-f950e45bc5ff")
 	)
 	(pad "J6" smd circle
@@ -808,6 +1149,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "4d78c8ad-cfee-4ffe-9faa-6d282cd4b5cc")
 	)
 	(pad "J7" smd circle
@@ -815,6 +1160,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "6f4132ea-4fc2-42bc-881a-eec5ef06a419")
 	)
 	(pad "J8" smd circle
@@ -822,6 +1171,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "252316ac-be64-4fce-aede-222dd288fef9")
 	)
 	(pad "J9" smd circle
@@ -829,6 +1182,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "cd1d06d6-8aad-4862-9804-9d2b28e6c2ad")
 	)
 	(pad "J10" smd circle
@@ -836,6 +1193,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "b0e575fd-89c1-4555-8798-ed40caf54eed")
 	)
 	(pad "K1" smd circle
@@ -843,6 +1204,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "eb4b9561-e605-45cc-80d5-d9fc80424b5d")
 	)
 	(pad "K2" smd circle
@@ -850,6 +1215,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "114e4b8e-b90a-494a-a046-28e32be59f73")
 	)
 	(pad "K3" smd circle
@@ -857,6 +1226,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "090f1454-9014-4a65-8c47-e06944f902db")
 	)
 	(pad "K4" smd circle
@@ -864,6 +1237,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "d812d0c3-3b3f-4007-bcd2-186683d79351")
 	)
 	(pad "K5" smd circle
@@ -871,6 +1248,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "286679f1-1bda-4af2-b341-5fc1456c1977")
 	)
 	(pad "K6" smd circle
@@ -878,6 +1259,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "385a2936-3ae0-471e-bea6-8481a760456a")
 	)
 	(pad "K7" smd circle
@@ -885,6 +1270,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "f94b2f2f-0024-4e23-b548-9e5a5fa5af5e")
 	)
 	(pad "K8" smd circle
@@ -892,6 +1281,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "2022865f-983e-475d-a319-4cb344c2ed67")
 	)
 	(pad "K9" smd circle
@@ -899,6 +1292,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "9966b4d5-9aa7-420a-bb4f-c40dd8ac7fc9")
 	)
 	(pad "K10" smd circle
@@ -906,6 +1303,10 @@
 		(size 0.4 0.4)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(tenting
+			(front none)
+			(back none)
+		)
 		(uuid "ab2fad60-ad0c-4e3d-8a9a-8864903673b1")
 	)
 	(embedded_fonts no)
