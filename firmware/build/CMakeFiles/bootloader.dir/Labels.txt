@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/Users/fox/hackerfab/spincoater/firmware/build/CMakeFiles/bootloader
+/Users/fox/hackerfab/spincoater/firmware/build/CMakeFiles/bootloader.rule
+/Users/fox/hackerfab/spincoater/firmware/build/CMakeFiles/bootloader-complete.rule
+/Users/fox/hackerfab/spincoater/firmware/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/Users/fox/hackerfab/spincoater/firmware/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/Users/fox/hackerfab/spincoater/firmware/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/Users/fox/hackerfab/spincoater/firmware/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/Users/fox/hackerfab/spincoater/firmware/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/Users/fox/hackerfab/spincoater/firmware/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/Users/fox/hackerfab/spincoater/firmware/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
