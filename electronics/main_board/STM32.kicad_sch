@@ -28990,6 +28990,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 63.5) (xy 116.84 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "645d157a-3ece-4d66-a429-3025654b623e")
+	)
+	(wire
+		(pts
 			(xy 109.22 154.94) (xy 111.76 154.94)
 		)
 		(stroke
@@ -29097,6 +29107,16 @@
 			(type default)
 		)
 		(uuid "9656062e-4d12-4eb9-9f47-acaf3cbfd1fa")
+	)
+	(wire
+		(pts
+			(xy 119.38 96.52) (xy 116.84 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96adb45a-a536-4918-9425-73acdc272899")
 	)
 	(wire
 		(pts
@@ -29227,6 +29247,16 @@
 			(type default)
 		)
 		(uuid "c58089a2-c3e4-4243-863e-b42755859066")
+	)
+	(wire
+		(pts
+			(xy 119.38 66.04) (xy 116.84 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c877de09-8e42-4fcd-8ab4-671f948b6df2")
 	)
 	(wire
 		(pts
@@ -29371,6 +29401,28 @@
 		)
 		(uuid "0c6d42c3-6a5a-4c1c-8c9f-2236ea8d0605")
 	)
+	(hierarchical_label "STM32-BOOT0"
+		(shape output)
+		(at 116.84 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "23311c2a-a308-4f6f-9e5f-b9cd8d6ac4fa")
+	)
+	(hierarchical_label "STM32-SWCLK"
+		(shape output)
+		(at 116.84 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2ee9c84d-69e5-49ba-9763-1e19afbcf50d")
+	)
 	(hierarchical_label "CAN_TX"
 		(shape input)
 		(at 116.84 91.44 180)
@@ -29458,6 +29510,17 @@
 			(justify left)
 		)
 		(uuid "ad4a2af4-1109-4c93-8c11-afb09eb69893")
+	)
+	(hierarchical_label "STM32-SWDIO"
+		(shape bidirectional)
+		(at 116.84 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ad8b800b-6c05-4714-91d8-8ec7cafa0661")
 	)
 	(hierarchical_label "GATE_DRIVER_SDO"
 		(shape input)

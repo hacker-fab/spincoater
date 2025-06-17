@@ -502,6 +502,26 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 76.2) (xy 248.92 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3389b429-7fa5-47bb-aade-9d37b488cf61")
+	)
+	(wire
+		(pts
+			(xy 233.68 78.74) (xy 248.92 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36b0eee9-d855-4b2d-b362-80d9e8e7592c")
+	)
+	(wire
+		(pts
 			(xy 109.22 132.08) (xy 248.92 132.08)
 		)
 		(stroke
@@ -592,7 +612,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 71.12) (xy 248.92 71.12)
+			(xy 233.68 66.04) (xy 248.92 66.04)
 		)
 		(stroke
 			(width 0)
@@ -802,7 +822,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 73.66) (xy 248.92 73.66)
+			(xy 233.68 68.58) (xy 248.92 68.58)
 		)
 		(stroke
 			(width 0)
@@ -849,6 +869,16 @@
 			(type default)
 		)
 		(uuid "f454c79f-9608-4b7f-a5fb-458bfe418c0b")
+	)
+	(wire
+		(pts
+			(xy 233.68 73.66) (xy 248.92 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4ad3ce7-17fd-4d41-a6f6-90d3dbd2e2d9")
 	)
 	(wire
 		(pts
@@ -1089,8 +1119,8 @@
 		)
 	)
 	(sheet
-		(at 248.92 66.04)
-		(size 25.4 83.82)
+		(at 248.92 58.42)
+		(size 25.4 91.44)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1105,7 +1135,7 @@
 		)
 		(uuid "1661b71c-886a-4aa6-891b-6d20776b8819")
 		(property "Sheetname" "Expansion Port"
-			(at 248.92 65.3284 0)
+			(at 248.92 57.7084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1123,7 +1153,7 @@
 			)
 		)
 		(pin "ENCODER_SCL" input
-			(at 248.92 71.12 180)
+			(at 248.92 66.04 180)
 			(uuid "2d9ac02a-d44a-492b-bf97-15d8d20bf82c")
 			(effects
 				(font
@@ -1133,7 +1163,7 @@
 			)
 		)
 		(pin "ENCODER_SDA" bidirectional
-			(at 248.92 73.66 180)
+			(at 248.92 68.58 180)
 			(uuid "224fc402-01ff-4ac7-8597-d6e5126b386b")
 			(effects
 				(font
@@ -1365,6 +1395,36 @@
 		(pin "EXPANSION_IO48" bidirectional
 			(at 248.92 147.32 180)
 			(uuid "4b9b6a1f-36d1-45af-87ac-e870e0b05883")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STM32-BOOT0" output
+			(at 248.92 73.66 180)
+			(uuid "2bde6e04-a2f0-43d5-adb3-3f435997928e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STM32-SWCLK" output
+			(at 248.92 76.2 180)
+			(uuid "a586e612-a11b-4113-911c-52fd28d7deae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STM32-SWDIO" bidirectional
+			(at 248.92 78.74 180)
+			(uuid "fe733346-64c2-423d-8885-46c2cfef1f68")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2081,8 +2141,8 @@
 		)
 	)
 	(sheet
-		(at 200.66 66.04)
-		(size 33.02 15.24)
+		(at 200.66 63.5)
+		(size 33.02 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2097,7 +2157,7 @@
 		)
 		(uuid "c9ec9ccd-2e72-4236-908b-58c2b4d5f776")
 		(property "Sheetname" "Motor"
-			(at 200.66 65.3284 0)
+			(at 200.66 62.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2145,7 +2205,7 @@
 			)
 		)
 		(pin "ENCODER_SCL" output
-			(at 233.68 71.12 0)
+			(at 233.68 66.04 0)
 			(uuid "8f6fca4a-aadc-43d3-b6b3-780f34e7065f")
 			(effects
 				(font
@@ -2155,8 +2215,38 @@
 			)
 		)
 		(pin "ENCODER_SDA" bidirectional
-			(at 233.68 73.66 0)
+			(at 233.68 68.58 0)
 			(uuid "3ed1fc50-6cd1-4ff8-a27f-819cc5654722")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STM32-BOOT0" output
+			(at 233.68 73.66 0)
+			(uuid "fc7c8e3c-7dac-4011-a9a3-5266318f5b58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STM32-SWCLK" output
+			(at 233.68 76.2 0)
+			(uuid "9312da1b-c03f-4e70-8714-d1daa5b54087")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STM32-SWDIO" bidirectional
+			(at 233.68 78.74 0)
+			(uuid "51802e1e-8592-4bdc-acd6-fad0c11595e1")
 			(effects
 				(font
 					(size 1.27 1.27)

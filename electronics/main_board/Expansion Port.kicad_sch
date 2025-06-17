@@ -1214,6 +1214,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 83.82) (xy 213.36 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09d85065-b1aa-4da4-bcb2-7650e2fed820")
+	)
+	(wire
+		(pts
 			(xy 215.9 86.36) (xy 213.36 86.36)
 		)
 		(stroke
@@ -1381,16 +1391,6 @@
 			(type default)
 		)
 		(uuid "472e78dd-baae-4f8b-93e3-0187ed63a236")
-	)
-	(wire
-		(pts
-			(xy 215.9 83.82) (xy 213.36 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bf0e1a1-0b81-466b-b0c0-9a4c65c9af67")
 	)
 	(wire
 		(pts
@@ -1594,6 +1594,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 78.74) (xy 213.36 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96b6cf51-33e2-473a-90ec-65946aed9fd2")
+	)
+	(wire
+		(pts
 			(xy 226.06 142.24) (xy 226.06 139.7)
 		)
 		(stroke
@@ -1611,16 +1621,6 @@
 			(type default)
 		)
 		(uuid "9a97c635-5193-406c-808a-fe9f9e8505f4")
-	)
-	(wire
-		(pts
-			(xy 215.9 81.28) (xy 213.36 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c21ea41-dc3b-4a96-9bd3-3db3caad4509")
 	)
 	(wire
 		(pts
@@ -1661,16 +1661,6 @@
 			(type default)
 		)
 		(uuid "a5b45ed3-b869-4bb3-b227-35bc5ad087fe")
-	)
-	(wire
-		(pts
-			(xy 215.9 78.74) (xy 213.36 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6440b04-e727-4fc1-995d-bf436e8598ad")
 	)
 	(wire
 		(pts
@@ -1834,6 +1824,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 81.28) (xy 213.36 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea8bec9c-2346-4d2f-bf9d-b2044979d309")
+	)
+	(wire
+		(pts
 			(xy 215.9 60.96) (xy 213.36 60.96)
 		)
 		(stroke
@@ -1903,17 +1903,6 @@
 		)
 		(uuid "040ca3f5-eb94-433b-b68d-2f6eca5b36fe")
 	)
-	(hierarchical_label "EXPANSION_IO46"
-		(shape bidirectional)
-		(at 213.36 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "06e39e69-81f7-4236-a68c-7629d6bf3166")
-	)
 	(hierarchical_label "EXPANSION_IO13"
 		(shape bidirectional)
 		(at 213.36 93.98 180)
@@ -1947,6 +1936,17 @@
 		)
 		(uuid "1fa388e5-3e5b-406e-9089-17d011bcc7fc")
 	)
+	(hierarchical_label "STM32-SWDIO"
+		(shape bidirectional)
+		(at 213.36 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "208bec8f-b5cd-4965-abe0-5344ad22143a")
+	)
 	(hierarchical_label "EXPANSION_IO45"
 		(shape bidirectional)
 		(at 119.38 142.24 90)
@@ -1979,17 +1979,6 @@
 			(justify right)
 		)
 		(uuid "3a45ee2a-83f4-48fb-9968-550ef6880363")
-	)
-	(hierarchical_label "EXPANSION_IO3"
-		(shape bidirectional)
-		(at 213.36 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "42bfd429-7580-4a5b-adca-affe7ef0e965")
 	)
 	(hierarchical_label "EXPANSION_IO38"
 		(shape bidirectional)
@@ -2089,17 +2078,6 @@
 			(justify left)
 		)
 		(uuid "6148c9b9-1004-4d0a-8728-271bdc236dcd")
-	)
-	(hierarchical_label "EXPANSION_IO9"
-		(shape bidirectional)
-		(at 213.36 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "61b87cfd-4915-4143-afe7-efe14449e7d5")
 	)
 	(hierarchical_label "EXPANSION_IO47"
 		(shape bidirectional)
@@ -2299,6 +2277,17 @@
 		)
 		(uuid "cef0f8a4-30c2-4b44-a7cd-62d7e2878610")
 	)
+	(hierarchical_label "STM32-BOOT0"
+		(shape output)
+		(at 213.36 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dc98b1c0-c7f0-435e-8c02-ef9231e22e9c")
+	)
 	(hierarchical_label "EXPANSION_IO40"
 		(shape bidirectional)
 		(at 213.36 119.38 180)
@@ -2331,6 +2320,17 @@
 			(justify right)
 		)
 		(uuid "eace6000-7169-4b15-aab2-af6e8998b67d")
+	)
+	(hierarchical_label "STM32-SWCLK"
+		(shape output)
+		(at 213.36 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ecd9c953-a34d-4cb8-b0a3-089fdbd0cbef")
 	)
 	(hierarchical_label "EXPANSION_IO13"
 		(shape bidirectional)

@@ -192,6 +192,7 @@
         0.1,
         0.127,
         0.158242,
+        0.1651,
         0.2032,
         0.3048,
         0.4318
@@ -807,7 +808,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "/Users/fox/Downloads/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",

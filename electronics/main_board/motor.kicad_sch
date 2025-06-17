@@ -167,6 +167,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 66.04) (xy 40.64 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b7b5997-61ad-4ab5-aabe-f1800eb48241")
+	)
+	(wire
+		(pts
 			(xy 165.1 93.98) (xy 180.34 93.98)
 		)
 		(stroke
@@ -264,6 +274,16 @@
 			(type default)
 		)
 		(uuid "ba46a258-9906-44f0-b1f4-f63d6f727ca5")
+	)
+	(wire
+		(pts
+			(xy 43.18 71.12) (xy 40.64 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc8f1178-959a-408e-93d3-dbfcd694ff48")
 	)
 	(wire
 		(pts
@@ -387,6 +407,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 68.58) (xy 40.64 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff4a9a2d-63f6-4838-bb75-a2402da20dc5")
+	)
+	(wire
+		(pts
 			(xy 165.1 73.66) (xy 180.34 73.66)
 		)
 		(stroke
@@ -394,6 +424,28 @@
 			(type default)
 		)
 		(uuid "ffffa54e-4f6e-46aa-a23e-d5b25263dc2f")
+	)
+	(hierarchical_label "STM32-BOOT0"
+		(shape output)
+		(at 40.64 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "10b0f077-cce8-4738-82f1-d5e4b8be4e28")
+	)
+	(hierarchical_label "STM32-SWCLK"
+		(shape output)
+		(at 40.64 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1229b29a-e2b8-4569-9190-509adb5b9615")
 	)
 	(hierarchical_label "CAN_RX"
 		(shape input)
@@ -438,6 +490,17 @@
 			(justify left)
 		)
 		(uuid "c389087b-2a13-4e0d-94a6-fabd5d8a2b36")
+	)
+	(hierarchical_label "STM32-SWDIO"
+		(shape bidirectional)
+		(at 40.64 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dfd48411-82c1-400a-be72-99315b3e837e")
 	)
 	(hierarchical_label "ENCODER_SDA"
 		(shape bidirectional)
@@ -1148,6 +1211,36 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "STM32-BOOT0" output
+			(at 43.18 66.04 180)
+			(uuid "e5ccda88-8984-4503-9d0c-15ebd9f240cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STM32-SWCLK" output
+			(at 43.18 71.12 180)
+			(uuid "5672f802-31dd-43de-ae9d-b185d90d99f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STM32-SWDIO" bidirectional
+			(at 43.18 68.58 180)
+			(uuid "689170f2-997d-4409-bec8-3a4f807089d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
