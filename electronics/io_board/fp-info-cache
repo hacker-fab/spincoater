@@ -1,4 +1,4 @@
-25314329927934432
+25319581606334768
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -101339,6 +101339,13 @@ GT-USB-7004N
 18
 16
 io_board
+HS1602A-B
+
+
+0
+20
+17
+io_board
 HUSB238A-BB001-QN16R
 
 
@@ -101423,6 +101430,13 @@ TJA1051TK/3/1J
 9
 9
 io_board
+TMB12A12
+
+
+0
+2
+2
+io_board
 TPD4E02B04
 
 
@@ -101464,3 +101478,10 @@ XY115A-5.0-3P
 0
 6
 3
+io_board
+ZX-PZ1.27-2-5PZZ
+
+
+0
+10
+10
